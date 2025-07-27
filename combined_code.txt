@@ -1,0 +1,6445 @@
+
+==================================================
+File: D:\4th Sem\Project\Web\about.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About NourishNet</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Heading -->
+    <div class="heading" style="background: url(images/header-food.jpg) no-repeat center/cover">
+      <h1>About us</h1>
+    </div>
+    <!-- About Section -->
+    <section class="about">
+      <div class="image-container">
+        <div class="image">
+          <img src="images/about-food.jpg" alt="About NourishNet" />
+        </div>
+        <div class="image">
+          <img src="images/about-food_1.jpg" alt="About NourishNet" />
+        </div>
+        <div class="image">
+          <img src="images/about-food_2.jpg" alt="About NourishNet" />
+        </div>
+      </div>
+      <div class="content">
+        <h2>Why Choose NourishNet?</h2>
+        <p>
+          NourishNet is a revolutionary platform dedicated to bridging the gap between surplus food sources and communities in need.
+          Our mission is to minimize food waste while ensuring that excess food reaches those who require it the most.
+        </p>
+        <p>
+          We work closely with food producers, grocery stores, restaurants, and volunteers to build a sustainable food-sharing network.
+          By leveraging real-time tracking and smart logistics, we ensure that food is distributed efficiently and safely.
+        </p>
+        <h3>Our Key Initiatives</h3>
+        <ul>
+          <li><strong>Smart Food Distribution:</strong> AI-driven analytics to connect food donors with recipients.</li>
+          <li><strong>Community Partnerships:</strong> Collaborating with NGOs and food banks to maximize impact.</li>
+          <li><strong>Volunteer Engagement:</strong> Rewarding community participation.</li>
+          <li><strong>Sustainability Practices:</strong> Promoting eco-friendly food-sharing solutions.</li>
+          <li><strong>Educational Campaigns:</strong> Raising awareness about food insecurity and nutrition.</li>
+        </ul>
+        <div class="icons-container">
+          <div class="icons">
+            <i class="fas fa-hand-holding-heart"></i>
+            <span>Community Impact</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-leaf"></i>
+            <span>Sustainable Practices</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-chart-line"></i>
+            <span>Real-time Analytics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- FontAwesome CDN for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+==================================================
+File: D:\4th Sem\Project\Web\collector-dashboard.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collector Dashboard - NourishNet</title>
+    <!-- Swiper CSS (Keep if used elsewhere, maybe not needed here) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/practice.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dashboard.css" /> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="collector-dashboard.html">Dashboard</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <div class="heading" style="background: url(images/header-food.jpg) no-repeat center/cover">
+      <h1>Collector Dashboard</h1>
+    </div>
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+        <h2 class="dashboard-title">Welcome, Collector!</h2>
+        <!-- Available Donations Section -->
+        <div class="dashboard-section available-donations">
+            <h3><i class="fas fa-utensils"></i> Available Food Donations</h3>
+            <div class="grid-container" id="donations-container">
+                <p>Loading available donations...</p>
+            </div>
+        </div>
+        <!-- Prior Orders Section -->
+        <div class="dashboard-section prior-orders">
+            <h3><i class="fas fa-history"></i> Your Order History</h3>
+            <div id="order-history">
+                <!-- Order history items will be loaded dynamically -->
+                <p>Loading your order history...</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="order-overlay" class="overlay" style="display: none;">
+    </div>
+
+    <div id="collector-feedback-modal" class="overlay" style="display: none;">
+    </div>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Include required scripts -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="js/script.js"></script> 
+    <script src="js/auth.js"></script>
+    <script src="js/order.js"></script> 
+    <script src="js/overlay.js"></script> 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (!user || user.role !== 'collector') {
+                alert('Access denied. Please login as a collector.');
+                window.location.href = 'login.html';
+                return;
+            }
+            loadAvailableDonations();
+            loadOrderHistory(user._id); 
+        });
+
+        async function loadAvailableDonations() {
+            const container = document.getElementById('donations-container');
+            try {
+                const res = await fetch('/api/donations/active'); 
+                const data = await res.json();
+
+                if (data.donations && data.donations.length > 0) {
+                    container.innerHTML = ''; 
+                    data.donations.forEach(donation => {
+                        const card = document.createElement('div');
+                        card.classList.add('donation-card');
+                        card.id = `donation-card-${donation._id}`; 
+                        card.innerHTML = `
+                            <img src="${donation.foodImage || 'images/placeholder-food.png'}" alt="${donation.foodType} donation" class="donation-image"/>
+                            <div class="donation-info">
+                                <h3>${donation.foodType} Meal / Items</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> Location: ${donation.location}</p>
+                                <p><i class="fas fa-box-open"></i> Available: <span class="donation-quantity">${donation.quantity}</span> servings</p>
+                                <p><i class="far fa-clock"></i> Pickup: ${donation.pickupTime}</p>
+                                <p><i class="far fa-calendar-times"></i> Use By: ${new Date(donation.useBy).toLocaleString()}</p>
+                                ${donation.allergy ? `<p><i class="fas fa-exclamation-triangle"></i> Allergens: ${donation.allergy}</p>` : ''}
+                                <button class="btn request-btn" onclick="openOrderOverlay('${donation._id}')">Request Donation</button>
+                             </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                } else {
+                    container.innerHTML = '<p>No active donations available right now. Check back later!</p>';
+                }
+            } catch (err) {
+                console.error('Error fetching available donations:', err);
+                container.innerHTML = '<p>Could not load donations. Please try refreshing.</p>';
+            }
+        }
+        async function loadOrderHistory(collectorId) {
+            const historyContainer = document.getElementById('order-history');
+            try {
+                const res = await fetch(`/api/dashboard/collector/${collectorId}`);
+                const data = await res.json();
+
+                if (data.success && data.orderHistory && data.orderHistory.length > 0) {
+                    historyContainer.innerHTML = ''; 
+                    const feedbackStatuses = await checkFeedbackStatus(data.orderHistory.map(o => o._id));
+                    data.orderHistory.sort((a, b) => new Date(b.orderDate) - new Date(a.orderDate)); 
+
+                    for (const order of data.orderHistory) {
+                         const donationDetails = await getDonationDetails(order.donationId);
+                         const distributorName = donationDetails ? donationDetails.distributorName : 'the distributor'; 
+                         const orderItem = document.createElement('div');
+                         orderItem.classList.add('order-history-item');
+                         const feedbackGiven = feedbackStatuses[order._id]; 
+
+                         orderItem.innerHTML = `
+                             <div class="order-details">
+                                 <p><strong>Order ID:</strong> ${order._id}</p>
+                                 <p><strong>Donation:</strong> ${donationDetails ? donationDetails.foodType : 'Details unavailable'} from ${distributorName}</p>
+                                 <p><strong>Quantity Requested:</strong> ${order.itemCount} servings</p>
+                                 <p><strong>Order Date:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
+                                 <p><strong>Status:</strong> ${order.status || 'Completed'}</p>
+                             </div>
+                             <div class="order-actions">
+                                 <button class="btn feedback-btn" data-order-id="${order._id}" onclick="openCollectorFeedbackModal('${order._id}', '${distributorName}')" ${feedbackGiven ? 'disabled' : ''}>
+                                     ${feedbackGiven ? 'Feedback Submitted' : 'Give Feedback'}
+                                 </button>
+                             </div>
+                         `;
+                        if (feedbackGiven) {
+                             const btn = orderItem.querySelector('.feedback-btn');
+                             btn.style.opacity = '0.6';
+                             btn.style.cursor = 'not-allowed';
+                         }
+                         historyContainer.appendChild(orderItem);
+                     }
+                } else if (data.success) {
+                    historyContainer.innerHTML = '<p>You haven\'t placed any orders yet!</p>';
+                } else {
+                     historyContainer.innerHTML = '<p>Could not load order history.</p>';
+                }
+            } catch (err) {
+                console.error('Error fetching order history:', err);
+                historyContainer.innerHTML = '<p>Error loading order history. Please try refreshing.</p>';
+            }
+        }
+        async function getDonationDetails(donationId) {
+            if (!donationId) return null;
+            try {
+                const res = await fetch(`/api/donations/${donationId}`); 
+                const data = await res.json();
+                if (data.success) {
+                    // const distRes = await fetch(`/api/users/${data.donation.distributor}`);
+                    // const distData = await distRes.json();
+                    // data.donation.distributorName = distData.success ? distData.user.name : 'Unknown Distributor';
+                    data.donation.distributorName = 'Distributor';
+                    return data.donation;
+                }
+                return null;
+            } catch (err) {
+                console.error(`Error fetching details for donation ${donationId}:`, err);
+                return null;
+            }
+        }
+        async function checkFeedbackStatus(orderIds) {
+            if (!orderIds || orderIds.length === 0) return {};
+            try {
+                const res = await fetch('/api/feedback/all');
+                const data = await res.json();
+                const feedbackMap = {};
+                if (data.feedbacks) {
+                    data.feedbacks.forEach(fb => {
+                        feedbackMap[fb.orderId] = true; 
+                    });
+                }
+                const resultMap = {};
+                orderIds.forEach(id => {
+                    resultMap[id] = feedbackMap[id] || false;
+                });
+                return resultMap;
+            } catch (err) {
+                console.error("Error checking feedback status:", err);
+                const errorMap = {};
+                orderIds.forEach(id => { errorMap[id] = false; }); 
+                return errorMap;
+            }
+        }
+    </script>
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\distributor-dashboard.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distributor Dashboard - NourishNet</title>
+    <!-- Swiper CSS (Optional) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/practice.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dashboard.css" /> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header (Dashboard Navigation) -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="distributor-dashboard.html">Dashboard</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Heading -->
+    <div class="heading" style="background: url(images/header-food.jpg) no-repeat center/cover">
+      <h1>Distributor Dashboard</h1>
+    </div>
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+      <h2 class="dashboard-title">Manage Your Donations</h2>
+      <div class="dashboard-grid"> 
+        <!-- Log Food Donation Form Section -->
+        <div class="dashboard-section form-section">
+          <h3><i class="fas fa-plus-circle"></i> Add New Food Donation</h3>
+          <!-- Use fetch API, so remove action/method. Add enctype for file upload. -->
+          <form id="donation-form" enctype="multipart/form-data">
+             <div class="inputBox">
+                <span>Food Type / Description <span style="color:red">*</span></span>
+                <input type="text" name="foodType" placeholder="e.g., Vegetable Curry, Assorted Pastries" required />
+              </div>
+            <div class="inputBox">
+              <span>Allergy Information <span style="color:red">*</span></span>
+              <input type="text" name="allergy" placeholder="e.g., Contains Nuts, Gluten-Free, None" required />
+            </div>
+            <div class="inputBox">
+              <span>Quantity (Servings/Items) <span style="color:red">*</span></span>
+              <input type="number" name="quantity" placeholder="e.g., 50" min="1" required />
+            </div>
+            <div class="inputBox">
+              <span>Pickup Location <span style="color:red">*</span></span>
+              <input type="text" name="location" placeholder="Enter full address or specific location" required />
+            </div>
+            <div class="inputBox">
+              <span>Available Pickup Timing <span style="color:red">*</span></span>
+              <input type="text" name="pickupTime" placeholder="e.g., Today 4 PM - 6 PM, Mon-Fri 9 AM - 12 PM" required />
+            </div>
+            <div class="inputBox">
+              <span>Use-By Date & Time <span style="color:red">*</span></span>
+              <input type="datetime-local" name="useBy" required />
+            </div>
+            <div class="inputBox">
+              <span>Upload Food Image <span style="color:red">*</span></span>
+              <input type="file" name="foodImage" accept="image/png, image/jpeg, image/webp" required />
+            </div>
+            <div id="donation-message" style="margin-top: 10px; font-weight: bold;"></div>
+            <input type="submit" value="Log Donation" class="btn" />
+          </form>
+        </div>
+        <div class="dashboard-section info-section">
+          <h3><i class="fas fa-list-alt"></i> Donation & Delivery Overview</h3>
+          <div class="active-donations">
+            <h4><i class="fas fa-hourglass-half"></i> Your Active Donations</h4>
+            <div id="active-donations-list">
+              <p>Loading active donations...</p>
+            </div>
+          </div>
+          <div class="prior-deliveries">
+            <h4><i class="fas fa-check-circle"></i> Completed Deliveries & Feedback</h4>
+            <div id="delivery-history">
+              <p>Loading delivery history...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="edit-donation-modal" class="overlay" style="display: none;">
+    </div>
+    <div id="feedback-detail-modal" class="overlay" style="display: none;">
+    </div>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.</p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="js/script.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user || user.role !== 'distributor') {
+          alert('Access denied. Please login as a distributor.');
+          window.location.href = 'login.html';
+          return;
+        }
+        const donationForm = document.getElementById('donation-form');
+        const messageDiv = document.getElementById('donation-message');
+        let distributorHidden = donationForm.querySelector('input[name="distributor"]');
+        if (!distributorHidden) {
+             distributorHidden = document.createElement('input');
+             distributorHidden.type = 'hidden';
+             distributorHidden.name = 'distributor';
+             donationForm.appendChild(distributorHidden);
+        }
+        distributorHidden.value = user._id || user.id; 
+        donationForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          messageDiv.textContent = 'Submitting...';
+          messageDiv.style.color = 'orange';
+
+          const formData = new FormData(donationForm);
+          const useByDate = new Date(formData.get('useBy'));
+          if (isNaN(useByDate) || useByDate <= new Date()) {
+             messageDiv.textContent = 'Error: Please enter a valid future Use-By Date & Time.';
+             messageDiv.style.color = 'red';
+             return;
+          }
+          try {
+            const response = await fetch('/api/donations/add', {
+              method: 'POST',
+              body: formData
+            });
+
+            if (!response.ok) {
+                let errorMsg = `HTTP error! status: ${response.status}`;
+                try {
+                    const errorData = await response.json();
+                    errorMsg = errorData.message || errorMsg;
+                } catch (jsonError) {
+
+                }
+                throw new Error(errorMsg);
+            }
+            const data = await response.json();
+            if (data.success) {
+              messageDiv.textContent = 'Donation added successfully!';
+              messageDiv.style.color = 'green';
+              donationForm.reset(); 
+              loadDistributorData(user._id || user.id);
+              setTimeout(() => { messageDiv.textContent = ''; }, 5000);
+            } else {
+              messageDiv.textContent = 'Error: ' + (data.message || 'Could not add donation.');
+              messageDiv.style.color = 'red';
+            }
+          } catch (err) {
+            console.error('Donation submission error:', err);
+            messageDiv.textContent = `An error occurred: ${err.message}. Please try again.`;
+            messageDiv.style.color = 'red';
+          }
+        });
+        loadDistributorData(user._id || user.id);
+      });
+      async function loadDistributorData(distributorId) {
+        const activeListContainer = document.getElementById('active-donations-list');
+        const historyContainer = document.getElementById('delivery-history');
+        activeListContainer.innerHTML = '<p>Loading active donations...</p>';
+        historyContainer.innerHTML = '<p>Loading delivery history...</p>';
+        try {
+          const res = await fetch(`/api/dashboard/distributor/${distributorId}`);
+          const data = await res.json();
+          if (data.success) {
+            let feedbackStatuses = {}; 
+            if (data.orderHistory && data.orderHistory.length > 0) {
+                 console.log("Order history found, checking feedback statuses...");
+                 feedbackStatuses = await checkFeedbackStatusForDistributor(data.orderHistory.map(o => o._id));
+            } else {
+                 console.log("No order history, skipping feedback status check.");
+            }
+            if (data.activeDonations && data.activeDonations.length > 0) {
+              activeListContainer.innerHTML = '';
+              data.activeDonations.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+              data.activeDonations.forEach(donation => {
+                const item = document.createElement('div');
+                item.classList.add('active-donation-item');
+                item.innerHTML = `
+                  <div>
+                    <p><strong>ID:</strong> ${donation._id}</p>
+                    <p><strong>Type:</strong> ${donation.foodType}</p>
+                    <p><strong>Quantity Left:</strong> ${donation.quantity} servings</p>
+                    <p><strong>Use By:</strong> ${new Date(donation.useBy).toLocaleString()}</p>
+                  </div>
+                  <div>
+                    <button class="btn edit-btn" onclick="openEditDonationModal('${donation._id}')">Edit</button>
+                    <!-- <button class="btn delete-btn" onclick="deleteDonation('${donation._id}')">Delete</button> -->
+                  </div>
+                `;
+                activeListContainer.appendChild(item);
+              });
+            } else {
+              activeListContainer.innerHTML = '<p>You have no active donations.</p>';
+            }
+
+            if (data.orderHistory && data.orderHistory.length > 0) {
+              historyContainer.innerHTML = '';
+              data.orderHistory.sort((a, b) => new Date(b.orderDate) - new Date(a.orderDate));
+              const feedbackMap = {}; 
+              if (feedbackStatuses) {
+                    Object.entries(feedbackStatuses).forEach(([orderId, feedback]) => {
+                        if (feedback) {
+                             feedbackMap[orderId] = feedback;
+                        }
+                    });
+              }
+              console.log("Using feedback map to render history:", feedbackMap);
+              data.orderHistory.forEach(order => {
+                const item = document.createElement('div');
+                item.classList.add('delivery-item');
+                const feedback = feedbackMap[order._id];
+                item.innerHTML = `
+                    <div>
+                         <p><strong>Order ID:</strong> ${order._id}</p>
+                         <p><strong>Donation ID:</strong> ${order.donationId}</p>
+                         <p><strong>Collector ID:</strong> ${order.collector}</p>
+                         <p><strong>Items Taken:</strong> ${order.itemCount}</p>
+                         <p><strong>Date:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
+                    </div>
+                     <div class="feedback-section">
+                         ${feedback ? `
+                             <p><strong>Feedback Received:</strong></p>
+                             <div class="feedback-details">
+                                <span class="rating">${generateStars(feedback.rating)}</span>
+                                ${feedback.comment || 'No comment provided.'} <!-- Added fallback -->
+                                <span style="display:block; font-size: 10px; color: #888;"> on ${new Date(feedback.createdAt).toLocaleDateString()}</span>
+                             </div>
+                         ` : `
+                             <p><i>No feedback submitted yet.</i></p>
+                         `}
+                     </div>
+                `;
+                historyContainer.appendChild(item);
+              });
+            } else {
+              historyContainer.innerHTML = '<p>No deliveries have been completed yet.</p>';
+            }
+          } else {
+             console.error("API call failed:", data.message);
+             activeListContainer.innerHTML = `<p>Could not load donations: ${data.message || 'Unknown error'}</p>`;
+             historyContainer.innerHTML = `<p>Could not load delivery history: ${data.message || 'Unknown error'}</p>`;
+          }
+        } catch (err) {
+           console.error('Error in loadDistributorData:', err);
+           activeListContainer.innerHTML = '<p>Error loading data. Please refresh.</p>';
+           historyContainer.innerHTML = '<p>Error loading data. Please refresh.</p>';
+        }
+      }
+
+      function generateStars(rating) {
+          let stars = '';
+          for (let i = 1; i <= 5; i++) {
+              stars += `<i class="fas fa-star" style="color: ${i <= rating ? 'gold' : '#ccc'};"></i>`;
+          }
+          return stars;
+      }
+
+      async function checkFeedbackStatusForDistributor(orderIds) {
+            if (!orderIds || orderIds.length === 0) {
+                console.log("checkFeedbackStatusForDistributor: No order IDs to check.");
+                return {};
+            }
+
+            try {
+                console.log("checkFeedbackStatusForDistributor: Checking feedback for orders:", orderIds);
+                const res = await fetch('/api/feedback/all'); 
+                if (!res.ok) {
+                    console.error(`checkFeedbackStatusForDistributor: Failed to fetch feedback - HTTP status ${res.status}`);
+                    return {}; 
+                }
+
+                const data = await res.json();
+
+                if (!data.success || !data.feedbacks) {
+                    console.warn("checkFeedbackStatusForDistributor: API did not return success or feedbacks array.", data);
+                    return {}; 
+                }
+
+                console.log(`checkFeedbackStatusForDistributor: Received ${data.feedbacks.length} total feedbacks.`);
+                const feedbackMap = {};
+                data.feedbacks.forEach(fb => {
+                    if (orderIds.includes(fb.orderId)) {
+                        feedbackMap[fb.orderId] = fb; 
+                    }
+                });
+
+                console.log("checkFeedbackStatusForDistributor: Constructed feedback map:", feedbackMap);
+                return feedbackMap; 
+            } catch (err) {
+                console.error("checkFeedbackStatusForDistributor: Error occurred:", err);
+                return {}; 
+            }
+        }
+
+      function openEditDonationModal(donationId) {
+        alert(`Edit functionality for donation ${donationId} is not fully implemented yet.`);
+        // const modal = document.getElementById('edit-donation-modal');
+        // modal.style.display = 'flex';
+      }
+
+      function showFeedbackDetail(feedbackId) {
+          alert(`Viewing detail for feedback ${feedbackId} not implemented yet.`);
+          // const modal = document.getElementById('feedback-detail-modal');
+          // Fetch feedback detail, populate modal...
+          // modal.style.display = 'flex';
+      }
+    </script>
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\donations.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donations - NourishNet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/practice.css" /> 
+    <link rel="stylesheet" href="css/style.css" /> 
+     <link rel="stylesheet" href="css/dashboard.css" /> 
+     <link rel="stylesheet" href="css/feedback.css" /> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+         <!-- Nav updated by auth.js -->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <div class="heading" style="background: url(images/header-food.jpg) no-repeat center/cover"> 
+        <h1>View Donations</h1>
+    </div>
+
+
+    <section class="donations-page"> 
+      <!-- Available Donations Section -->
+      <div class="available-donations-section dashboard-section"> 
+        <h2 class="heading-title"><i class="fas fa-utensils"></i> Available Donations</h2>
+        <p style="text-align: center; margin-bottom: 1.5rem; color: #555;">Browse current food donations available for collection.</p>
+        <div class="grid-container" id="donations-container"> 
+            <p>Loading available donations...</p>
+        </div>
+      </div>
+      <!-- Past Feedback Section -->
+      <section class="past-feedback dashboard-section"> 
+        <h2><i class="fas fa-comments"></i> Recent Community Feedback</h2>
+         <p style="text-align: center; margin-bottom: 1.5rem; color: #555;">See what collectors are saying about recent donations.</p>
+        <div id="feedback-list" class="feedback-scroll-container" style="max-height: 400px;"> 
+           <p>Loading feedback...</p>
+        </div>
+      </section>
+    </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.</p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+       <div class="footer-container">
+           <div class="footer-left"> 
+            <h2 class="brand">NOURISH<span class="highlight">NET</span>
+            </h2> <p>Connecting surplus food to those in need.</p> </div>
+           <div class="footer-links"> 
+            <h3>Quick Links</h3> <ul> <li><a href="index.html">Home</a></li> <li><a href="about.html">About Us</a></li> <li><a href="#">Initiatives</a></li> <li><a href="#">Partners</a></li> <li><a href="#">Contact</a></li> </ul> </div>
+           <div class="footer-links"> <h3>Legal</h3> <ul> <li><a href="#">Privacy Policy</a></li> <li><a href="#">Terms of Use</a></li> <li><a href="#">Refund & Cancellation Policy</a></li> </ul> </div>
+           <div class="footer-contact"> <h3>GET IN TOUCH</h3> <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p> </div>
+       </div>
+       <div class="footer-bottom"> <p>Copyright © 2025 NourishNet. All Rights Reserved.</p> </div>
+  </footer>
+
+    <div id="order-overlay" class="overlay" style="display: none;">
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+    <script src="js/auth.js"></script> 
+    <script src="js/order.js"></script> 
+    <script src="js/overlay.js"></script> 
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        loadActiveDonations();
+        loadAllFeedbacks();
+      });
+
+      async function loadActiveDonations() {
+         const container = document.getElementById('donations-container');
+         const user = JSON.parse(localStorage.getItem('user')); 
+
+         try {
+            const res = await fetch('/api/donations/active');
+            const data = await res.json();
+
+            if (data.donations && data.donations.length > 0) {
+                container.innerHTML = ''; 
+                data.donations.forEach(donation => {
+                    const card = document.createElement('div');
+                    card.classList.add('donation-card'); 
+                    card.id = `donation-card-${donation._id}`; 
+                    card.innerHTML = `
+                        <img src="${donation.foodImage || 'images/placeholder-food.png'}" alt="${donation.foodType} donation" class="donation-image"/>
+                        <div class="donation-info">
+                            <h3>${donation.foodType}</h3>
+                             <p><i class="fas fa-map-marker-alt"></i> Location: ${donation.location}</p>
+                             <p><i class="fas fa-box-open"></i> Available: <span class="donation-quantity">${donation.quantity}</span> servings</p>
+                             <p><i class="far fa-clock"></i> Pickup: ${donation.pickupTime}</p>
+                             <p><i class="far fa-calendar-times"></i> Use By: ${new Date(donation.useBy).toLocaleString()}</p>
+                              ${donation.allergy ? `<p><i class="fas fa-exclamation-triangle"></i> Allergens: ${donation.allergy}</p>` : ''}
+                            ${user ? 
+                                `<button class="btn request-btn" onclick="openOrderOverlay('${donation._id}')">Request Donation</button>`
+                                : `<button class="btn request-btn" onclick="window.location.href='login.html'">Login to Request</button>`
+                             }
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            } else {
+                container.innerHTML = '<p>No donations are currently available. Please check back soon!</p>';
+            }
+         } catch (err) {
+            console.error('Error fetching active donations:', err);
+             container.innerHTML = '<p>Could not load donations. Please try refreshing.</p>';
+         }
+      }
+      async function loadAllFeedbacks() {
+        const feedbackListDiv = document.getElementById('feedback-list');
+        feedbackListDiv.innerHTML = '<p>Loading feedback...</p>'; 
+        try {
+            const response = await fetch('/api/feedback/all');
+            const data = await response.json();
+            if (data.feedbacks && data.feedbacks.length > 0) {
+                let html = '';
+                data.feedbacks.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+                data.feedbacks.forEach(item => {
+                    html += `
+                        <div class="feedback-item">
+                            <div class="feedback-header">
+                                <span class="feedback-user">Feedback from Collector</span> <!-- Enhance if collector name is available -->
+                                <span class="feedback-rating"> ${generateStars(item.rating)} </span>
+                            </div>
+                            <p class="feedback-comment">${item.comment}</p>
+                             <span class="feedback-timestamp">Submitted on: ${new Date(item.createdAt).toLocaleDateString()} (Order: ${item.orderId ? item.orderId.slice(-6) : 'N/A'})</span>
+                        </div>`;
+                });
+                feedbackListDiv.innerHTML = html;
+            } else {
+                feedbackListDiv.innerHTML = '<p>No feedback has been submitted yet.</p>';
+            }
+        } catch (err) {
+            console.error("Error loading feedbacks:", err);
+            feedbackListDiv.innerHTML = '<p>Could not load feedback at this time.</p>';
+        }
+      }
+        function generateStars(rating) {
+            let stars = '';
+            for (let i = 1; i <= 5; i++) {
+                stars += `<i class="fas fa-star" style="color: ${i <= rating ? 'gold' : '#ccc'};"></i>`;
+            }
+            return stars;
+        }
+    </script>
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\feedback-overlay.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NourishNet Feedbacks</title>
+    <link rel="stylesheet" href="css/feedback.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="feedback-overlay-content">
+        <span class="close-btn" onclick="closeFeedbackOverlay()">&times;</span>
+        <h2>User Feedbacks</h2>
+        <div class="feedback-scroll-container">
+             <div id="feedback-items">
+                <p>Loading feedbacks...</p>
+            </div>
+        </div>
+        <button class="btn close-btn-bottom" onclick="closeFeedbackOverlay()">Close</button>
+    </div>
+
+</body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\forgot-password.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forgot Password - NourishNet</title>
+  </head>
+  <body>
+    <h1>Forgot Password</h1>
+    <form onsubmit="handleForgotPassword(event)">
+      <label>Enter your email</label>
+      <input type="email" id="forgot-email" required />
+      <button type="submit">Send Reset Link</button>
+    </form>
+    <script>
+      function handleForgotPassword(e) {
+        e.preventDefault();
+        const email = document.getElementById('forgot-email').value;
+        alert('Reset link functionality is not implemented yet.');
+      }
+    </script>
+  </body>
+</html>
+
+
+==================================================
+File: D:\4th Sem\Project\Web\index.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nourishnet - Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Registration</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Home Slider -->
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide" style="background: url(images/food-slide-1.jpg) no-repeat">
+            <div class="content">
+              <span>Donate with Compassion</span>
+              <h3>Share your surplus, nourish a life</h3>
+              <a href="login.html" class="btn">Explore Donations</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide" style="background: url(images/food-slide-2.webp) no-repeat">
+            <div class="content">
+              <span>Bridging Hunger & Hope</span>
+              <h3>Your food, their future</h3>
+              <a href="login.html" class="btn">View Opportunities</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide" style="background: url(images/food-slide-3.webp) no-repeat">
+            <div class="content">
+              <span>Every Meal Counts</span>
+              <h3>Empower communities with every donation</h3>
+              <a href="login.html" class="btn">Join the Cause</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <section class="services">
+      <h1 class="heading-title">Our Services</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="register.html"><h3>Registration</h3></a>
+        </div>
+        <div class="box">
+          <a href="donations.html"><h3>Donation</h3></a>
+        </div>
+        <div class="box">
+          <a href="#" onclick="openFeedbackOverlay()"><h3>Feedbacks</h3></a>
+        </div>
+        <div class="box">
+          <h3>Community Impact</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Home About -->
+    <section class="home-about">
+      <div class="image">
+        <img src="images/about-food.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h3>About Nourishnet</h3>
+        <p>
+          Nourishnet is a revolutionary platform connecting food donors and collectors to ensure no edible food goes to waste...
+        </p>
+        <a href="about.html" class="btn">read more</a>
+      </div>
+    </section>
+    <!-- Home Offer -->
+    <section class="home-offer">
+      <div class="content">
+        <h3>Join our mission</h3>
+        <p>
+          Be a part of a transformative journey where your surplus food can change lives. Sign up today and start making a difference!
+        </p>
+        <a href="register.html" class="btn">Get Started</a>
+      </div>
+    </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <div id="feedback-overlay" class="overlay" style="display: none;"></div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/overlay.js"></script> 
+  </body>
+</html>
+
+
+==================================================
+File: D:\4th Sem\Project\Web\login.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NourishNet - Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+       <div id="menu-btn" class="fas fa-bars" style="color: white;"></div>
+    </section>
+
+    <div class="login-container">
+      <h2>🌱 Welcome Back!</h2>
+      <p>Login to manage donations and requests.</p> 
+      <!--
+      <div class="social-buttons">
+        <button class="google-btn">Continue with Google</button>
+        <button class="github-btn">Continue with GitHub</button>
+      </div>
+      <p class="divider">OR</p>
+       -->
+      <p>Login using your registered Email or Contact Number.</p>
+      <form id="login-form" onsubmit="event.preventDefault(); loginUser();">
+            <div class="input-group">
+                <input type="text" name="identifier" placeholder="Enter your email or contact number" required />
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div id="login-message" style="margin-bottom: 15px; color: red; font-weight: bold;"></div>
+            <button type="submit" class="login-btn">Login</button>
+      </form>
+      <p class="signup-link">
+          <a href="forgot-password.html" style="font-size: 0.9em; color: #aaa;">Forgot Password?</a>
+      </p>
+      <p class="signup-link" style="margin-top: 20px;">
+          Don't have an account? <a href="register.html">Sign up</a>
+      </p>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\order.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Place Order - NourishNet</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <div class="order-overlay">
+      <div class="order-modal">
+        <span class="close-btn" onclick="closeOrderOverlay()">&times;</span>
+        <h2>Place Your Order</h2>
+        <form id="order-form" onsubmit="submitOrder(event)">
+          <div class="inputBox">
+            <span>Item Count</span>
+            <input type="number" name="itemCount" placeholder="Enter quantity needed" required />
+          </div>
+          <div id="order-details"></div>
+          <input type="submit" value="Submit Order" class="btn" />
+        </form>
+        <div id="order-summary" class="hidden"></div>
+      </div>
+    </div>
+    <script src="js/order.js"></script>
+  </body>
+</html>
+
+
+==================================================
+File: D:\4th Sem\Project\Web\profile.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Profile - NourishNet</title>
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css"/> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <div class="heading" style="background: url(images/header-profile.jpg) no-repeat center/cover"> 
+        <h1>Your Profile</h1>
+    </div>
+    <section class="profile-page">
+        <div class="profile-container dashboard-section"> 
+            <h2>Welcome, <span id="username-display" style="color: var(--main-color);">User</span>!</h2>
+            <p>Manage your NourishNet account details below.</p>
+            <div id="profile-message" style="margin: 10px 0; font-weight: bold;"></div>
+
+             <div id="user-details" class="user-details-display">
+                 <h3><i class="fas fa-user-circle"></i> Your Information</h3>
+                 <p><strong>Name:</strong> <span id="detail-name">Loading...</span></p>
+                 <p><strong>Email:</strong> <span id="detail-email">Loading...</span></p>
+                 <p><strong>Contact:</strong> <span id="detail-contact">Loading...</span></p>
+                 <p><strong>Role:</strong> <span id="detail-role" style="text-transform: capitalize;">Loading...</span></p>
+                 <div class="distributor-only" style="display: none;">
+                    <p><strong>Donated Categories:</strong> <span id="detail-categories">Loading...</span></p>
+                 </div>
+                 <div class="collector-only" style="display: none;">
+                     <p><strong>Operating Region:</strong> <span id="detail-region">Loading...</span></p>
+                     <p><strong>Typical Requirements:</strong> <span id="detail-requirements">Loading...</span></p>
+                 </div>
+                  <button class="btn edit-profile-btn" id="edit-profile-toggle-btn" onclick="toggleEditProfile()">
+                    <i class="fas fa-edit"></i> Edit Profile
+                </button>
+             </div>
+             <!-- Edit Profile Form -->
+             <div id="edit-profile-form" class="edit-profile-section" style="display: none;">
+                 <h3><i class="fas fa-pencil-alt"></i> Edit Your Information</h3>
+                 <form onsubmit="submitProfileEdits(event)">
+                     <div class="inputBox">
+                         <label for="edit-name">Name <span style="color:red">*</span></label>
+                         <input type="text" id="edit-name" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="edit-email">Email <span style="color:red">*</span></label>
+                         <input type="email" id="edit-email" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="edit-contact">Contact (Phone/Address) <span style="color:red">*</span></label>
+                         <input type="text" id="edit-contact" required/>
+                     </div>
+                     <!-- Distributor-only fields -->
+                     <div class="inputBox distributor-only" style="display: none;">
+                         <label for="edit-categories">Donated Categories <span style="color:red">*</span></label>
+                         <input type="text" id="edit-categories" />
+                     </div>
+                     <!-- Collector-only fields -->
+                     <div class="inputBox collector-only" style="display: none;">
+                         <label for="edit-region">Operating Region <span style="color:red">*</span></label>
+                         <input type="text" id="edit-region" />
+                     </div>
+                     <div class="inputBox collector-only" style="display: none;">
+                         <label for="edit-requirements">Typical Requirements <span style="color:red">*</span></label>
+                         <input type="text" id="edit-requirements" />
+                     </div>
+                     <div class="form-actions">
+                         <button type="submit" class="btn save-btn"><i class="fas fa-save"></i> Save Changes</button>
+                         <button type="button" class="btn cancel-btn" onclick="toggleEditProfile()"><i class="fas fa-times"></i> Cancel</button>
+                     </div>
+                 </form>
+             </div>
+
+             <hr style="margin: 2rem 0; border-top: 1px solid #eee;"/>
+             <!-- Change Password Section -->
+             <div class="change-password-section">
+                 <h3><i class="fas fa-key"></i> Change Password</h3>
+                 <form id="change-password-form" onsubmit="changePassword(event)">
+                     <div class="inputBox">
+                         <label for="old-password">Current Password <span style="color:red">*</span></label>
+                         <input type="password" id="old-password" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="new-password">New Password <span style="color:red">*</span></label>
+                         <input type="password" id="new-password" required minlength="6"/>
+                     </div>
+                     <div class="inputBox">
+                         <label for="confirm-new-password">Confirm New Password <span style="color:red">*</span></label>
+                         <input type="password" id="confirm-new-password" required minlength="6"/>
+                     </div>
+                      <div id="password-message" style="margin: 10px 0; font-weight: bold;"></div>
+                     <button type="submit" class="btn"><i class="fas fa-sync-alt"></i> Update Password</button>
+                 </form>
+                 <p style="margin-top: 1rem; font-size: 0.9em;">
+                     <a href="forgot-password.html">Forgot your password?</a>
+                 </p>
+             </div>
+         </div>
+     </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+    <script src="js/auth.js"></script> 
+    <script src="js/profile.js"></script> 
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\register.html
+==================================================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - NourishNet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body><!-- Header -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Heading -->
+    <div class="heading" style="background: url(images/header-register.jpg) no-repeat center/cover">
+      <h1>REGISTER</h1>
+    </div>
+    <!-- Registration Section -->
+    <section class="registration">
+      <h1 class="heading-title" style="font-size: 40px;">Create Your Account</h1>
+      <div class="registration-container">
+        <div class="registration-box">
+          <h2>Registration Details</h2>
+          <form id="register-form">
+            <div class="inputBox">
+              <span>Name <span style="color:red">*</span></span>
+              <input type="text" name="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="inputBox">
+              <span>Email <span style="color:red">*</span></span>
+              <input type="email" name="email" placeholder="Enter your email address" required />
+            </div>
+            <div class="inputBox">
+              <span>Contact (Phone or Address) <span style="color:red">*</span></span>
+              <input type="text" name="contact" placeholder="Enter phone number or full address" required />
+            </div>
+            <div class="inputBox">
+              <span>Register As <span style="color:red">*</span></span>
+              <select name="role" required>
+                <option value="">-- Select Role --</option>
+                <option value="collector">Collector (Requesting Food)</option>
+                <option value="distributor">Distributor (Donating Food)</option>
+              </select>
+            </div>
+            <div id="additional-fields">
+            </div>
+            <div class="inputBox">
+              <span>Password <span style="color:red">*</span></span>
+              <input type="password" name="password" placeholder="Choose a secure password" required minlength="6" />
+            </div>
+            <div id="register-message" style="margin-top: 15px; font-weight: bold;"></div>
+            <input type="submit" value="Register" class="btn" />
+          </form>
+          <p style="margin-top: 15px; font-size: 15px;">Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+      const roleSelect = document.querySelector('select[name="role"]');
+      const additionalFieldsDiv = document.getElementById('additional-fields');
+      roleSelect.addEventListener('change', function () {
+        additionalFieldsDiv.innerHTML = ''; 
+        if (this.value === 'distributor') {
+          const categoriesDiv = document.createElement('div');
+          categoriesDiv.className = 'inputBox';
+          categoriesDiv.innerHTML = `
+            <span>Typical Food Categories Donated <span style="color:red">*</span></span>
+            <input type="text" name="categories" placeholder="e.g., Baked Goods, Produce, Prepared Meals" required />
+          `;
+          additionalFieldsDiv.appendChild(categoriesDiv);
+
+        } else if (this.value === 'collector') {
+          const regionDiv = document.createElement('div');
+          regionDiv.className = 'inputBox';
+          regionDiv.innerHTML = `
+            <span>Region/Area of Operation <span style="color:red">*</span></span>
+            <input type="text" name="region" placeholder="e.g., Downtown Cityville, North Suburbs" required />
+          `;
+          additionalFieldsDiv.appendChild(regionDiv);
+
+          const requirementsDiv = document.createElement('div');
+          requirementsDiv.className = 'inputBox';
+          requirementsDiv.innerHTML = `
+            <span>Typical Food Requirements/Needs <span style="color:red">*</span></span>
+            <input type="text" name="requirements" placeholder="e.g., Non-perishables, Ready-to-eat meals for 50 people" required />
+          `;
+          additionalFieldsDiv.appendChild(requirementsDiv);
+        }
+      });
+      const registerForm = document.getElementById('register-form');
+      if(registerForm) {
+           registerForm.addEventListener('submit', registerUser); 
+      }
+    </script>
+  </body>
+</html>
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\server.js
+==================================================
+
+
+const express = require('express');
+const app = express();
+const path = require('path');
+const mongoose = require('mongoose');
+const multer = require('multer');
+require('dotenv').config(); 
+
+const PORT = process.env.PORT || 3000;
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/nourishnet';
+
+// --- Database Connection ---
+mongoose.connect(MONGO_URI)
+  .then(() => console.log('MongoDB connected successfully.'))
+  .catch((err) => {
+      console.error('MongoDB connection error:', err);
+      process.exit(1); 
+  });
+
+// --- Middleware ---
+app.use(express.json()); 
+app.use(express.urlencoded({ extended: true })); 
+
+// --- File Upload (Multer) Setup ---
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+      const uploadPath = path.join(__dirname, '..', 'uploads'); 
+      
+      cb(null, uploadPath);
+  },
+  filename: function (req, file, cb) {
+      cb(null, Date.now() + path.extname(file.originalname));
+  }
+});
+
+const imageFileFilter = (req, file, cb) => {
+  if (file.mimetype.startsWith('image/')) {
+      cb(null, true);
+  } else {
+      cb(new Error('Not an image! Please upload only images.'), false);
+  }
+};
+
+const upload = multer({ storage: storage, fileFilter: imageFileFilter });
+
+// --- Static File Serving ---
+app.use(express.static(path.join(__dirname, '..'))); 
+
+app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
+
+// --- API Routes ---
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/donations', upload.single('foodImage'), require('./routes/donations')); 
+app.use('/api/users', require('./routes/user'));
+app.use('/api/dashboard', require('./routes/dashboard'));
+app.use('/api/feedback', require('./routes/feedback'));
+
+// --- Basic Error Handling Middleware ---
+// Multer error handling
+app.use((err, req, res, next) => {
+  if (err instanceof multer.MulterError) {
+      console.error("Multer Error:", err);
+      return res.status(400).json({ success: false, message: `File upload error: ${err.message}` });
+  } else if (err) {
+       console.error("File Upload Unknown Error:", err);
+      if (err.message.includes('Not an image')) {
+          return res.status(400).json({ success: false, message: err.message });
+      }
+       return res.status(500).json({ success: false, message: 'An unexpected error occurred during file processing.' });
+  }
+  next();
+});
+
+// General 404 for API routes not found
+app.use('/api/*', (req, res) => {
+   res.status(404).json({ success: false, message: 'API endpoint not found.' });
+});
+
+
+// --- Server Startup ---
+app.listen(PORT, () => {
+  console.log(`Server running successfully on http://localhost:${PORT}`);
+});
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\controllers\authController.js
+==================================================
+
+const User = require('../models/User');
+// const bcrypt = require('bcryptjs');
+
+// REGISTER: Save new user to MongoDB
+exports.register = async (req, res) => {
+    try {
+        const { name, email, contact, role, password, categories, region, requirements } = req.body;
+
+        // Basic validation
+        if (!name || !email || !contact || !role || !password) {
+             return res.status(400).json({ success: false, message: 'Missing required fields.' });
+        }
+         if (password.length < 6) {
+             return res.status(400).json({ success: false, message: 'Password must be at least 6 characters.' });
+         }
+
+        // Check if user exists (by email)
+        const existingUser = await User.findOne({ email: email.toLowerCase() });
+        if (existingUser) {
+            return res.status(400).json({ success: false, message: 'User with this email already exists.' });
+        }
+
+         // const salt = await bcrypt.genSalt(10);
+         // const hashedPassword = await bcrypt.hash(password, salt);
+         const hashedPassword = password;
+
+        const newUser = new User({
+            name,
+            email: email.toLowerCase(), 
+            contact,
+            role,
+            password: hashedPassword,
+            ...(role === 'distributor' && { categories }),
+            ...(role === 'collector' && { region, requirements }),
+            createdAt: new Date(),
+        });
+
+        const savedUser = await newUser.save();
+
+        const userToReturn = savedUser.toObject(); 
+        delete userToReturn.password;
+
+        res.status(201).json({ success: true, message: `Registered successfully as ${role}`, user: userToReturn });
+
+    } catch (err) {
+         console.error("Registration Error:", err);
+         if (err.code === 11000) {
+             return res.status(400).json({ success: false, message: 'Email already registered.' });
+         }
+        res.status(500).json({ success: false, message: 'Server error during registration.' });
+    }
+};
+
+// LOGIN: Verify user credentials
+exports.login = async (req, res) => {
+    try {
+        const { identifier, password } = req.body;
+
+         if (!identifier || !password) {
+             return res.status(400).json({ success: false, message: 'Please provide identifier and password.' });
+         }
+
+        const user = await User.findOne({
+             $or: [
+                 { email: identifier.toLowerCase() },
+                 { contact: identifier }
+             ]
+         }); //.select('+password'); 
+
+        if (!user) {
+            return res.status(401).json({ success: false, message: 'Invalid credentials.' });
+        }
+
+         // const isMatch = await bcrypt.compare(password, user.password);
+         const isMatch = (password === user.password);
+
+        if (!isMatch) {
+            return res.status(401).json({ success: false, message: 'Invalid credentials.' });
+        }
+
+         const userToReturn = user.toObject();
+         delete userToReturn.password;
+
+        res.json({ success: true, user: userToReturn });
+
+    } catch (err) {
+        console.error("Login Error:", err);
+        res.status(500).json({ success: false, message: 'Server error during login.' });
+    }
+};
+
+// CHANGE PASSWORD
+exports.changePassword = async (req, res) => {
+    try {
+        const { userId, oldPassword, newPassword } = req.body;
+
+         if (!userId || !oldPassword || !newPassword) {
+              return res.status(400).json({ success: false, message: 'Missing required fields.' });
+         }
+          if (newPassword.length < 6) {
+              return res.status(400).json({ success: false, message: 'New password must be at least 6 characters.' });
+          }
+
+        const user = await User.findById(userId); //.select('+password');
+
+        if (!user) {
+            return res.status(404).json({ success: false, message: 'User not found.' });
+        }
+
+        // const isMatch = await bcrypt.compare(oldPassword, user.password);
+         const isMatch = (oldPassword === user.password); 
+
+        if (!isMatch) {
+            return res.status(400).json({ success: false, message: 'Incorrect current password.' });
+        }
+
+         if (oldPassword === newPassword) {
+              return res.status(400).json({ success: false, message: 'New password cannot be the same as the old password.' });
+         }
+        // const salt = await bcrypt.genSalt(10);
+        // user.password = await bcrypt.hash(newPassword, salt);
+         user.password = newPassword;
+
+        await user.save();
+
+        res.json({ success: true, message: 'Password updated successfully.' });
+
+    } catch (err) {
+        console.error("Change Password Error:", err);
+        res.status(500).json({ success: false, message: 'Server error changing password.' });
+    }
+}
+exports.forgotPassword = async (req, res) => {
+    console.warn("Forgot password endpoint called, but not implemented.");
+    res.status(501).json({ success: false, message: "Forgot password functionality is not implemented yet." });
+};
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\controllers\dashboardController.js
+==================================================
+
+const Donation = require('../models/Donation');
+const Order = require('../models/Order');
+// const User = require('../models/User');
+// const Feedback = require('../models/Feedback');
+exports.getDistributorDashboard = async (req, res) => {
+    try {
+        const distributorId = req.params.id;
+        if (!distributorId) {
+            return res.status(400).json({ success: false, message: 'Distributor ID is required.' });
+        }
+        const activeDonations = await Donation.find({
+            distributor: distributorId,
+            useBy: { $gt: new Date() },
+            quantity: { $gt: 0 } 
+        }).sort({ useBy: 1 });
+
+        const orderHistory = await Order.find({ distributor: distributorId })
+            .sort({ orderDate: -1 });
+
+        res.json({ success: true, activeDonations, orderHistory }); 
+
+    } catch (err) {
+        console.error("Distributor Dashboard Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching distributor dashboard data.' });
+    }
+};
+
+exports.getCollectorDashboard = async (req, res) => {
+    try {
+        const collectorId = req.params.id;
+         if (!collectorId) {
+             return res.status(400).json({ success: false, message: 'Collector ID is required.' });
+         }
+
+        const availableDonations = await Donation.find({
+            useBy: { $gt: new Date() },
+            quantity: { $gt: 0 }
+        }).sort({ createdAt: -1 }); 
+
+        const orderHistory = await Order.find({ collector: collectorId })
+            .sort({ orderDate: -1 });
+
+
+        res.json({ success: true, availableDonations, orderHistory });
+
+    } catch (err) {
+        console.error("Collector Dashboard Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching collector dashboard data.' });
+    }
+};
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\controllers\donationController.js
+==================================================
+
+const Donation = require('../models/Donation');
+const Order = require('../models/Order');
+const mongoose = require('mongoose');
+
+exports.addDonation = async (req, res) => {
+    try {
+        const { distributor, foodType, allergy, quantity, location, pickupTime, useBy } = req.body;
+
+         if (!distributor || !foodType || !allergy || !quantity || !location || !pickupTime || !useBy || !req.file) {
+             return res.status(400).json({ success: false, message: 'Missing required fields or image.' });
+         }
+         const useByDate = new Date(useBy);
+         if (isNaN(useByDate) || useByDate <= new Date()) {
+             return res.status(400).json({ success: false, message: 'Use-By date must be a valid future date.' });
+         }
+          if (parseInt(quantity) <= 0) {
+             return res.status(400).json({ success: false, message: 'Quantity must be greater than zero.' });
+         }
+
+
+        let foodImageUrl = '';
+        if (req.file) {
+            foodImageUrl = `/uploads/${req.file.filename}`;
+            console.log("Image saved at:", foodImageUrl);
+        } else {
+             return res.status(400).json({ success: false, message: 'Food image is required.' });
+        }
+
+        const donation = new Donation({
+            distributor, 
+            foodType,
+            allergy,
+            quantity: parseInt(quantity),
+            location,
+            pickupTime,
+            useBy: useByDate,
+            foodImage: foodImageUrl,
+            createdAt: new Date(),
+        });
+
+        const savedDonation = await donation.save();
+        res.status(201).json({ success: true, donation: savedDonation });
+
+    } catch (err) {
+        console.error("Add Donation Error:", err);
+         if (err.name === 'ValidationError') {
+             return res.status(400).json({ success: false, message: `Validation Error: ${err.message}` });
+         }
+        res.status(500).json({ success: false, message: 'Server error adding donation.' });
+    }
+};
+
+exports.getDonation = async (req, res) => {
+    try {
+        const donationId = req.params.id;
+        if (!mongoose.Types.ObjectId.isValid(donationId)) {
+            return res.status(400).json({ success: false, message: 'Invalid Donation ID format.' });
+        }
+
+        const donation = await Donation.findById(donationId);
+
+        if (!donation) {
+            return res.status(404).json({ success: false, message: 'Donation not found.' });
+        }
+
+        res.json({ success: true, donation });
+
+    } catch (err) {
+        console.error("Get Donation Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching donation.' });
+    }
+};
+
+exports.placeOrder = async (req, res) => {
+    // const session = await mongoose.startSession();
+    // session.startTransaction();
+
+    try {
+        const { donationId, itemCount, collector } = req.body;
+        const quantityRequested = parseInt(itemCount);
+
+         if (!mongoose.Types.ObjectId.isValid(donationId) || !mongoose.Types.ObjectId.isValid(collector)) {
+             return res.status(400).json({ success: false, message: 'Invalid ID format.' });
+         }
+         if (isNaN(quantityRequested) || quantityRequested <= 0) {
+             return res.status(400).json({ success: false, message: 'Invalid item count requested.' });
+         }
+
+        // const donation = await Donation.findById(donationId).session(session);
+         const donation = await Donation.findById(donationId);
+
+        if (!donation) {
+             // await session.abortTransaction(); session.endSession();
+            return res.status(404).json({ success: false, message: 'Donation not found.' });
+        }
+
+        if (donation.useBy <= new Date()) {
+             // await session.abortTransaction(); session.endSession();
+            return res.status(400).json({ success: false, message: 'This donation has expired.' });
+        }
+
+        if (donation.quantity < quantityRequested) {
+             // await session.abortTransaction(); session.endSession();
+            return res.status(400).json({ success: false, message: `Not enough servings available. Only ${donation.quantity} left.` });
+        }
+
+        const order = new Order({
+            donationId,
+            collector, 
+            distributor: donation.distributor, 
+            itemCount: quantityRequested,
+            status: 'placed', 
+            orderDate: new Date(),
+        });
+
+        // const savedOrder = await order.save({ session });
+         const savedOrder = await order.save();
+
+         const updatedDonation = await Donation.findByIdAndUpdate(
+             donationId,
+             { $inc: { quantity: -quantityRequested } }, 
+             { new: true } 
+             // { session }
+         );
+
+
+         if (!updatedDonation) {
+             // await session.abortTransaction(); session.endSession();
+             await Order.findByIdAndDelete(savedOrder._id);
+             console.error(`Failed to update donation quantity for ID: ${donationId} after order ${savedOrder._id}`);
+             return res.status(500).json({ success: false, message: 'Failed to update donation quantity.' });
+         }
+
+        // await session.commitTransaction();
+        // session.endSession();
+
+        res.status(201).json({
+             success: true,
+             message: 'Order placed successfully.',
+             orderId: savedOrder._id,
+             updatedDonation: { 
+                 _id: updatedDonation._id,
+                 quantity: updatedDonation.quantity
+             }
+         });
+
+    } catch (err) {
+        // await session.abortTransaction();
+        // session.endSession();
+        console.error("Place Order Error:", err);
+        res.status(500).json({ success: false, message: 'Server error placing order.' });
+    }
+};
+
+exports.getActiveDonations = async (req, res) => {
+    try {
+        const activeDonations = await Donation.find({
+            useBy: { $gt: new Date() },
+             quantity: { $gt: 0 } 
+        }).sort({ createdAt: -1 }); 
+
+        res.json({ success: true, donations: activeDonations });
+
+    } catch (err) {
+        console.error("Get Active Donations Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching active donations.' });
+    }
+};
+
+exports.updateDonation = async (req, res) => {
+     try {
+         const donationId = req.params.id;
+         const updates = req.body; 
+         delete updates.distributor;
+         delete updates.createdAt;
+         delete updates.foodImage; 
+
+         if (!mongoose.Types.ObjectId.isValid(donationId)) {
+             return res.status(400).json({ success: false, message: 'Invalid Donation ID format.' });
+         }
+         const updatedDonation = await Donation.findByIdAndUpdate(donationId, updates, { new: true, runValidators: true });
+         if (!updatedDonation) {
+             return res.status(404).json({ success: false, message: 'Donation not found or could not be updated.' });
+         }
+         res.json({ success: true, message: 'Donation updated successfully.', donation: updatedDonation });
+
+     } catch (err) {
+         console.error("Update Donation Error:", err);
+          if (err.name === 'ValidationError') {
+              return res.status(400).json({ success: false, message: `Validation Error: ${err.message}` });
+          }
+         res.status(500).json({ success: false, message: 'Server error updating donation.' });
+     }
+ };
+
+ exports.deleteDonation = async (req, res) => {
+     try {
+         const donationId = req.params.id;
+         if (!mongoose.Types.ObjectId.isValid(donationId)) {
+              return res.status(400).json({ success: false, message: 'Invalid Donation ID format.' });
+          }
+
+          const deletedDonation = await Donation.findByIdAndDelete(donationId);
+
+          if (!deletedDonation) {
+              return res.status(404).json({ success: false, message: 'Donation not found.' });
+          }
+
+          res.json({ success: true, message: 'Donation deleted successfully.' });
+
+      } catch (err) {
+          console.error("Delete Donation Error:", err);
+          res.status(500).json({ success: false, message: 'Server error deleting donation.' });
+      }
+  };
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\controllers\feedbackController.js
+==================================================
+
+const Feedback = require('../models/Feedback');
+const Order = require('../models/Order'); 
+const mongoose = require('mongoose');
+
+
+exports.submitFeedback = async (req, res) => {
+    try {
+        const { orderId, collectorId, rating, comment } = req.body;
+
+         // Validation
+         if (!orderId || !collectorId || !rating || !comment) {
+             return res.status(400).json({ success: false, message: 'Missing required feedback fields.' });
+         }
+         if (!mongoose.Types.ObjectId.isValid(orderId) || !mongoose.Types.ObjectId.isValid(collectorId)) {
+              return res.status(400).json({ success: false, message: 'Invalid ID format provided.' });
+          }
+          const numericRating = parseInt(rating);
+          if (isNaN(numericRating) || numericRating < 1 || numericRating > 5) {
+               return res.status(400).json({ success: false, message: 'Rating must be between 1 and 5.' });
+           }
+
+        const order = await Order.findOne({ _id: orderId, collector: collectorId });
+        if (!order) {
+            return res.status(404).json({ success: false, message: 'Order not found or you are not authorized to give feedback for this order.' });
+        }
+
+         const existingFeedback = await Feedback.findOne({ orderId: orderId });
+         if (existingFeedback) {
+             return res.status(400).json({ success: false, message: 'Feedback has already been submitted for this order.' });
+         }
+
+        const feedback = new Feedback({
+            orderId,
+            collectorId, 
+             distributorId: order.distributor, 
+            rating: numericRating,
+            comment,
+            createdAt: new Date(),
+        });
+
+        const savedFeedback = await feedback.save();
+
+        // await Order.findByIdAndUpdate(orderId, { feedbackGiven: true, feedbackId: savedFeedback._id });
+        res.status(201).json({ success: true, message: 'Feedback submitted successfully.', feedback: savedFeedback });
+
+    } catch (err) {
+        console.error("Submit Feedback Error:", err);
+        res.status(500).json({ success: false, message: 'Server error submitting feedback.' });
+    }
+};
+
+exports.getAllFeedback = async (req, res) => {
+    try {
+        const feedbacks = await Feedback.find()
+            // .populate('collectorId', 'name') 
+             // .populate('distributorId', 'name') 
+            .sort({ createdAt: -1 }); 
+
+        res.json({ success: true, feedbacks }); 
+
+    } catch (err) {
+        console.error("Get All Feedback Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching feedback.' });
+    }
+};
+
+exports.getFeedbackForOrder = async (req, res) => {
+     try {
+         const orderId = req.params.orderId;
+          if (!mongoose.Types.ObjectId.isValid(orderId)) {
+              return res.status(400).json({ success: false, message: 'Invalid Order ID format.' });
+          }
+
+         const feedback = await Feedback.findOne({ orderId: orderId }); 
+
+         if (!feedback) {
+             return res.status(404).json({ success: false, message: 'No feedback found for this order.' });
+         }
+
+         res.json({ success: true, feedback });
+
+     } catch (err) {
+         console.error("Get Feedback for Order Error:", err);
+         res.status(500).json({ success: false, message: 'Server error fetching feedback for order.' });
+     }
+ };
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\controllers\userController.js
+==================================================
+
+const User = require('../models/User');
+const mongoose = require('mongoose');
+
+exports.getUserById = async (req, res) => {
+    try {
+        const userId = req.params.id;
+        if (!mongoose.Types.ObjectId.isValid(userId)) {
+             return res.status(400).json({ success: false, message: 'Invalid User ID format.' });
+         }
+
+        const user = await User.findById(userId).select('-password');
+
+        if (!user) {
+            return res.status(404).json({ success: false, message: 'User not found.' });
+        }
+        res.json({ success: true, user });
+
+    } catch (err) {
+        console.error("Get User By ID Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching user.' });
+    }
+};
+
+exports.updateUser = async (req, res) => {
+    try {
+        const userId = req.params.id;
+         if (!mongoose.Types.ObjectId.isValid(userId)) {
+              return res.status(400).json({ success: false, message: 'Invalid User ID format.' });
+          }
+        const allowedUpdates = ['name', 'contact', 'categories', 'region', 'requirements', 'email'];
+        const updates = {};
+        let emailChanged = false;
+
+         const existingUser = await User.findById(userId);
+         if (!existingUser) {
+             return res.status(404).json({ success: false, message: 'User not found.' });
+         }
+
+
+        for (const key in req.body) {
+            if (allowedUpdates.includes(key)) {
+                updates[key] = typeof req.body[key] === 'string' ? req.body[key].trim() : req.body[key];
+
+                 if (key === 'email') {
+                     updates[key] = updates[key].toLowerCase(); 
+                      if (updates[key] !== existingUser.email) {
+                          if (!/\S+@\S+\.\S+/.test(updates[key])) {
+                               return res.status(400).json({ success: false, message: 'Invalid email format.' });
+                           }
+                           const emailExists = await User.findOne({ email: updates[key], _id: { $ne: userId } });
+                           if (emailExists) {
+                               return res.status(400).json({ success: false, message: 'This email address is already in use by another account.' });
+                           }
+                           emailChanged = true; 
+                      }
+                  }
+
+                  if (existingUser.role === 'distributor' && key === 'categories' && !updates[key]) {
+                      return res.status(400).json({ success: false, message: 'Categories field cannot be empty for distributors.' });
+                  }
+                  if (existingUser.role === 'collector') {
+                       if (key === 'region' && !updates[key]) return res.status(400).json({ success: false, message: 'Region field cannot be empty for collectors.' });
+                       if (key === 'requirements' && !updates[key]) return res.status(400).json({ success: false, message: 'Requirements field cannot be empty for collectors.' });
+                   }
+
+            }
+        }
+
+        const updatedUser = await User.findByIdAndUpdate(
+            userId,
+            { $set: updates }, 
+            { new: true, runValidators: true } 
+        ).select('-password'); 
+
+        if (!updatedUser) {
+            return res.status(404).json({ success: false, message: 'User not found during update.' });
+        }
+
+        res.json({ success: true, message: 'Profile updated successfully.', user: updatedUser });
+
+    } catch (err) {
+        console.error("Update User Error:", err);
+         if (err.name === 'ValidationError') {
+             return res.status(400).json({ success: false, message: `Validation Error: ${err.message}` });
+         }
+          if (err.code === 11000 && err.keyPattern && err.keyPattern.email) {
+              return res.status(400).json({ success: false, message: 'Email address is already in use.' });
+          }
+        res.status(500).json({ success: false, message: 'Server error updating user profile.' });
+    }
+};
+
+
+// GET all users 
+exports.getAllUsers = async (req, res) => {
+    try {
+        const users = await User.find().select('-password');
+        res.json({ success: true, users });
+    } catch (err) {
+        console.error("Get All Users Error:", err);
+        res.status(500).json({ success: false, message: 'Server error fetching users.' });
+    }
+};
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\models\Donation.js
+==================================================
+
+const mongoose = require('mongoose');
+
+const donationSchema = new mongoose.Schema({
+  // Link to the User model (distributor)
+  distributor: {
+       type: mongoose.Schema.Types.ObjectId,
+       ref: 'User', // Reference the 'User' model
+       required: true,
+       index: true // Index for faster lookups by distributor
+  },
+  foodType: {
+      type: String,
+      required: [true, 'Food type/description is required.'],
+      trim: true
+  },
+  allergy: {
+      type: String,
+      required: [true, 'Allergy information is required (enter "None" if applicable).'],
+      trim: true
+  },
+  quantity: {
+      type: Number,
+      required: [true, 'Quantity is required.'],
+      min: [0, 'Quantity cannot be negative.'] // Can be 0 if all taken
+  },
+  location: {
+      type: String,
+      required: [true, 'Pickup location is required.'],
+      trim: true
+  },
+  pickupTime: {
+      type: String,
+      required: [true, 'Pickup timing is required.'],
+      trim: true
+  },
+  useBy: {
+      type: Date,
+      required: [true, 'Use-by date and time are required.'],
+      index: true 
+  },
+  foodImage: {
+      type: String, 
+      required: [true, 'Food image is required.']
+  },
+  createdAt: {
+      type: Date,
+      default: Date.now
+  },
+});
+
+
+module.exports = mongoose.model('Donation', donationSchema);
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\models\Feedback.js
+==================================================
+
+const mongoose = require('mongoose');
+
+const feedbackSchema = new mongoose.Schema({
+  orderId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Order',
+      required: true,
+      unique: true, 
+      index: true
+  },
+  collectorId: {
+       type: mongoose.Schema.Types.ObjectId,
+       ref: 'User',
+       required: true,
+       index: true
+  },
+   distributorId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true,
+        index: true
+   },
+  rating: {
+      type: Number,
+      required: [true, 'Rating is required.'],
+      min: [1, 'Rating must be at least 1.'],
+      max: [5, 'Rating cannot be more than 5.']
+  },
+  comment: {
+      type: String,
+      required: [true, 'Comment is required.'],
+      trim: true,
+      maxlength: [500, 'Comment cannot exceed 500 characters.'] 
+  },
+  createdAt: {
+      type: Date,
+      default: Date.now
+  }
+});
+
+module.exports = mongoose.model('Feedback', feedbackSchema);
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\models\Order.js
+==================================================
+
+const mongoose = require('mongoose');
+
+const orderSchema = new mongoose.Schema({
+  donationId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Donation', 
+      required: true,
+      index: true
+  },
+  collector: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+      index: true
+  },
+  distributor: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+      index: true
+  },
+  itemCount: {
+      type: Number,
+      required: [true, 'Number of items requested is required.'],
+      min: [1, 'Must request at least 1 item.']
+  },
+  status: {
+      type: String,
+      enum: ['placed', 'confirmed', 'picked_up', 'cancelled'], // Example statuses
+      default: 'placed'
+  },
+  orderDate: {
+      type: Date,
+      default: Date.now
+  },
+});
+
+module.exports = mongoose.model('Order', orderSchema);
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\models\User.js
+==================================================
+
+const mongoose = require('mongoose');
+
+const userSchema = new mongoose.Schema({
+  name: {
+      type: String,
+      required: [true, 'Name is required.'],
+      trim: true
+  },
+  email: {
+      type: String,
+      required: [true, 'Email is required.'],
+      unique: true, 
+      lowercase: true, 
+      trim: true,
+      match: [/\S+@\S+\.\S+/, 'Please use a valid email address.'] 
+  },
+  contact: { 
+      type: String,
+      required: [true, 'Contact information (phone or address) is required.'],
+      trim: true
+  },
+  role: {
+      type: String,
+      required: [true, 'User role is required.'],
+      enum: ['collector', 'distributor'] 
+  },
+  password: {
+      type: String,
+      required: [true, 'Password is required.'],
+      minlength: [6, 'Password must be at least 6 characters long.']
+  },
+  categories: {
+      type: String,
+      required: function() { return this.role === 'distributor'; },
+      trim: true
+  },
+  region: {
+      type: String,
+      required: function() { return this.role === 'collector'; },
+      trim: true
+  },
+  requirements: {
+      type: String,
+      required: function() { return this.role === 'collector'; },
+      trim: true
+  },
+  createdAt: {
+      type: Date,
+      default: Date.now
+  }
+
+});
+
+// userSchema.pre('save', async function(next) {
+//   // Only hash the password if it has been modified (or is new)
+//   if (!this.isModified('password')) return next();
+//
+//   try {
+//     const salt = await bcrypt.genSalt(10);
+//     this.password = await bcrypt.hash(this.password, salt);
+//     next();
+//   } catch (err) {
+//     next(err);
+//   }
+// });
+
+module.exports = mongoose.model('User', userSchema);
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\routes\auth.js
+==================================================
+
+const express = require('express');
+const router = express.Router();
+const authController = require('../controllers/authController');
+
+router.post('/register', authController.register);
+
+router.post('/login', authController.login);
+
+router.post('/changePassword', authController.changePassword);
+
+router.post('/forgotPassword', authController.forgotPassword);
+
+
+module.exports = router;
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\routes\dashboard.js
+==================================================
+
+const express = require('express');
+const router = express.Router();
+const dashboardController = require('../controllers/dashboardController');
+
+router.get('/distributor/:id', dashboardController.getDistributorDashboard);
+
+router.get('/collector/:id', dashboardController.getCollectorDashboard);
+
+module.exports = router;
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\routes\donations.js
+==================================================
+
+const express = require('express');
+const router = express.Router();
+const donationController = require('../controllers/donationController');
+// const { protect } = require('../middleware/authMiddleware');
+
+router.get('/active', donationController.getActiveDonations);
+
+router.get('/:id', donationController.getDonation);
+
+router.post('/add', /* protect, */ donationController.addDonation);
+
+router.post('/order', /* protect, */ donationController.placeOrder);
+
+router.put('/:id', /* protect, authorizeOwner, */ donationController.updateDonation);
+
+router.delete('/:id', /* protect, authorizeOwner, */ donationController.deleteDonation);
+
+module.exports = router;
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\routes\feedback.js
+==================================================
+
+const express = require('express');
+const router = express.Router();
+const feedbackController = require('../controllers/feedbackController');
+// const { protect } = require('../middleware/authMiddleware'); 
+
+router.get('/all', feedbackController.getAllFeedback);
+
+router.post('/submit', /* protect, authorizeCollector, */ feedbackController.submitFeedback);
+
+router.get('/order/:orderId', feedbackController.getFeedbackForOrder);
+
+
+module.exports = router;
+
+==================================================
+File: D:\4th Sem\Project\Web\backend\routes\user.js
+==================================================
+
+const express = require('express');
+const router = express.Router();
+const userController = require('../controllers/userController');
+// const { protect } = require('../middleware/authMiddleware'); 
+
+router.get('/:id', userController.getUserById);
+
+router.put('/:id', /* protect, authorizeSelf, */ userController.updateUser);
+
+// router.get('/', /* protect, authorizeAdmin, */ userController.getAllUsers);
+
+
+module.exports = router;
+
+==================================================
+File: D:\4th Sem\Project\Web\css\about.css
+==================================================
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #3498DB;
+    --accent-color: #E74C3C;
+    --text-color: #fff;
+    --bg-color: #f5f5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    height: 80px;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefdfc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+    color: #ff4500;
+    transition: 0.3s ease;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+}
+
+#menu-btn {
+    display: none;
+}
+
+/* Mobile Menu */
+#menu-btn {
+    display: none;
+    font-size: 24px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10%;
+        background: var(--primary-color);
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+}
+
+/* Heading Section */
+.heading {
+    background: url(images/header-food.jpg) no-repeat center/cover;
+    text-align: center;
+    padding: 50px 10%;
+    color: var(--text-color);
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease-in-out;
+}
+
+.heading h1:hover {
+    color: #ff6600;
+    text-shadow: 2px 2px 8px rgba(255, 102, 0, 0.4);
+    transform: scale(1.05);
+}
+
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.about .image-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.about .content {
+    flex: 2;
+    max-width: 900px;
+    margin-left: 5px;
+}
+
+.about .content h2,
+.about .content h3 {
+    color: #ff6600;
+    transition: color 0.3s ease-in-out;
+}
+
+.about .content h2:hover,
+.about .content h3:hover {
+    color: #e65100;
+}
+
+.about .icons-container {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 10px;
+}
+
+.about .icons {
+    text-align: center;
+}
+
+.about .icons i {
+    font-size: 2rem;
+    color: #ff6600;
+}
+
+.about .icons span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-offer {
+        height: auto;
+        padding: 50px 5%;
+    }
+
+    .home-offer .content {
+        padding: 30px;
+        max-width: 85%;
+    }
+
+    .home-offer .content h3 {
+        font-size: 28px;
+    }
+
+    .home-offer .content p {
+        font-size: 15px;
+    }
+
+    .home-offer .btn {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+}
+
+/* Social Section*/
+.social-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-item {
+    text-align: center;
+}
+
+.social-item i {
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-link {
+    color: #1877F2;
+}
+
+.twitter-link {
+    color: #1DA1F2;
+}
+
+.instagram-link {
+    color: #E4405F;
+}
+
+.linkedin-link {
+    color: #0A66C2;
+}
+
+
+/* Footer SECTION */
+.footer {
+    background-color: #121212;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-left {
+    max-width: 300px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a,
+.footer-contact a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.issue-button {
+    margin-top: 15px;
+}
+
+.issue-button a {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\dashboard.css
+==================================================
+
+/*Specific styles for collector and distributor dashboards */
+.dashboard {
+    padding: 8px 5%; 
+}
+
+.dashboard-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.dashboard-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-section h3 {
+    font-size: 1.8rem;
+    color: var(--main-color, #27ae60);
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 0.8rem;
+}
+
+.dashboard-section h3 i {
+    margin-right: 10px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px; 
+}
+
+.donation-card {
+    background: #f9f9f9;
+    border: 10px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+}
+
+.donation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.donation-card .donation-image {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.donation-card .donation-info {
+    padding: 1rem 1.5rem;
+}
+
+.donation-card .donation-info h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 0.8rem;
+    border: none;
+    padding-bottom: 0;
+}
+
+.donation-card .donation-info p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.donation-card .donation-info p i {
+    margin-right: 8px;
+    color: var(--main-color, #27ae60);
+    width: 15px; 
+    text-align: center;
+}
+
+.donation-card .request-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#order-history {
+    margin-top: 1rem;
+}
+
+.order-history-item {
+    background: #fdfdfd;
+    border: 1px solid #f0f0f0;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 1rem;
+}
+
+.order-history-item .order-details {
+    flex-grow: 1;
+}
+
+.order-history-item p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+}
+
+.order-history-item p strong {
+    color: #222;
+    min-width: 150px; 
+    display: inline-block;
+}
+
+.order-history-item .order-actions .feedback-btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    min-width: 130px; 
+    text-align: center;
+}
+
+
+.form-section form .inputBox {
+    margin-bottom: 1.5rem; 
+}
+
+.form-section form .inputBox span {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+    font-size: 15px;
+}
+
+.form-section form .inputBox input[type="text"],
+.form-section form .inputBox input[type="number"],
+.form-section form .inputBox input[type="datetime-local"],
+.form-section form .inputBox select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: border-color 0.3s ease;
+}
+.form-section form .inputBox input:focus,
+.form-section form .inputBox select:focus {
+    border-color: var(--main-color, #27ae60);
+    outline: none;
+}
+
+.form-section form .inputBox input[type="file"] {
+    padding: 5px; 
+    border: 1px dashed #ccc;
+    background-color: #fdfdfd;
+}
+
+.form-section form .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+
+.active-donations, .prior-deliveries {
+    margin-top: 2rem; 
+}
+
+.info-section h4 { 
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.active-donation-item, .delivery-item {
+    background: #fdfdfd;
+    border: 1px solid #f0f0f0;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.active-donation-item p, .delivery-item p {
+     font-size: 12px;
+     color: #444;
+     margin-bottom: 0.4rem;
+     line-height: 1.4;
+}
+.active-donation-item p strong, .delivery-item p strong {
+     color: #222;
+     min-width: 120px; 
+     display: inline-block;
+}
+
+.edit-btn, .view-feedback-btn { 
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    background-color: #6c757d; 
+}
+.edit-btn:hover, .view-feedback-btn:hover {
+    background-color: #5a6268;
+}
+
+.feedback-details { 
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid #eee;
+    font-style: italic;
+    color: #666;
+    font-size: 10px;
+}
+.feedback-details .rating {
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    }
+
+    .donation-card .donation-info h3 {
+        font-size: 1.2rem;
+    }
+    .donation-card .donation-info p {
+        font-size: 0.9rem;
+    }
+
+    .order-history-item, .active-donation-item, .delivery-item {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+    .order-history-item .order-actions {
+        width: 100%;
+        margin-top: 1rem;
+    }
+     .order-history-item .order-actions .feedback-btn {
+         width: 100%;
+     }
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\feedback.css
+==================================================
+
+.feedback-overlay-content {
+  background: #fff;
+  padding: 2rem 3rem; 
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  position: relative; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-height: 80vh; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+.feedback-overlay-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem; 
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.feedback-overlay-content .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2.5rem;
+  color: #aaa;
+  cursor: pointer;
+  line-height: 1; 
+  transition: color 0.3s ease;
+}
+
+.feedback-overlay-content .close-btn:hover {
+  color: #555;
+}
+
+.feedback-scroll-container {
+  overflow-y: auto; 
+  flex-grow: 1; 
+  margin-bottom: 1rem; 
+  padding-right: 10px; 
+  text-align: left; 
+}
+
+#feedback-items {
+  width: 100%;
+}
+
+.feedback-item {
+  background-color: #f9f9f9; 
+  border: 1px solid #eee;
+  padding: 1rem 1.5rem;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.feedback-item:hover {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-user {
+  font-weight: 600;
+  color: #555;
+  font-size: 1rem;
+}
+
+.feedback-rating {
+  font-size: 0.9rem;
+}
+
+.feedback-comment {
+  font-size: 12px; 
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.feedback-timestamp {
+  font-size: 8px;
+  color: #888;
+  display: block; 
+  text-align: right; 
+}
+
+.close-btn-bottom {
+  margin-top: 1rem; 
+  width: auto; 
+  padding: 10px 25px; 
+  align-self: center; 
+}
+
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.6); 
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000; 
+font-family: 'Poppins', sans-serif; 
+}
+
+body.overlay-active {
+overflow: hidden;
+}
+
+.feedback-scroll-container::-webkit-scrollbar {
+width: 8px;
+}
+
+.feedback-scroll-container::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 10px;
+}
+
+.feedback-scroll-container::-webkit-scrollbar-thumb {
+background: #ccc;
+border-radius: 10px;
+}
+
+.feedback-scroll-container::-webkit-scrollbar-thumb:hover {
+background: #aaa;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\index.css
+==================================================
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    height: 80px;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefdfc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+    color: #ff4500;
+    transition: 0.3s ease;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.home {
+    margin-top: 60px;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.home .content span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home .content h3 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+/* SERVICES SECTION */
+.services {
+    padding: 80px 5%;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.services .heading-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+.services .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.services .box {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.services .box:hover {
+    transform: translateY(-8px);
+}
+
+.services .box img {
+    width: 90px;
+}
+
+.services .box h3 {
+    font-size: 20px;
+    margin-top: 12px;
+    color: #374151;
+}
+/* ABOUT SECTION */
+.home-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 5%;
+    background: #f3f4f6;
+}
+
+.home-about .image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.home-about .content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.home-about .content h3 {
+    font-size: 30px;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+.home-about .content p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+/* Footer SECTION */
+.footer {
+    background-color: #121212;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-left {
+    max-width: 300px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a,
+.footer-contact a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.issue-button {
+    margin-top: 15px;
+}
+
+.issue-button a {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #menu-btn {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .services .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-about .content {
+        text-align: center;
+    }
+}
+/* HOME OFFER SECTION */
+.home-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    background: linear-gradient(to right, #1e3a8a, #2563eb);
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.home-offer .content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 550px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.home-offer .content h3 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #60a5fa;
+    margin-bottom: 12px;
+}
+
+.home-offer .content p {
+    font-size: 17px;
+    color: #e2e8f0;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.home-offer .btn {
+    display: inline-block;
+    padding: 12px 26px;
+    background: #3b82f6;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: capitalize;
+    transition: 0.3s ease-in-out;
+}
+
+.home-offer .btn:hover {
+    background: #2563eb;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-offer {
+        height: auto;
+        padding: 50px 5%;
+    }
+
+    .home-offer .content {
+        padding: 30px;
+        max-width: 85%;
+    }
+
+    .home-offer .content h3 {
+        font-size: 28px;
+    }
+
+    .home-offer .content p {
+        font-size: 15px;
+    }
+
+    .home-offer .btn {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+}
+/* Social Section*/
+.social-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-item {
+    text-align: center;
+}
+
+.social-item i {
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-link {
+    color: #1877F2;
+}
+
+.twitter-link {
+    color: #1DA1F2;
+}
+
+.instagram-link {
+    color: #E4405F;
+}
+
+.linkedin-link {
+    color: #0A66C2;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\login.css
+==================================================
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefdfc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+    color: #ff4500;
+    transition: 0.3s ease;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.login-container {
+    background: rgba(30, 30, 30, 0.9);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Headings */
+.login-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.login-container p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Social Login Buttons */
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.google-btn,
+.github-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 48%;
+    transition: all 0.3s ease;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+.google-btn:hover,
+.github-btn:hover {
+    opacity: 0.8;
+}
+
+/* Divider */
+.divider {
+    font-size: 13px;
+    margin: 10px 0;
+    color: #bbb;
+}
+
+/* Email Login */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #292929;
+    color: white;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: #bbb;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+/* Sign Up Link */
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\order.css
+==================================================
+
+.order-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .order-modal {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+  }
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .order-modal h2 {
+    margin-bottom: 1rem;
+  }
+  .inputBox {
+    margin: 1rem 0;
+  }
+  .inputBox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .btn {
+    background: #3b82f6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .hidden {
+    display: none;
+  }
+  
+
+==================================================
+File: D:\4th Sem\Project\Web\css\practice.css
+==================================================
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    height: 80px;
+}
+
+.heading {
+    background: url(images/header-food.jpg) no-repeat center/cover;
+    text-align: center;
+    padding: 80px 10%;
+    color: var(--text-color);
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease-in-out;
+}
+
+.heading h1:hover {
+    color: #ff6600;
+    text-shadow: 2px 2px 8px rgba(255, 102, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+}
+
+#menu-btn {
+    display: none;
+}
+
+.donations {
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefdfc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+    color: #ff4500;
+    transition: 0.3s ease;
+}
+
+/* Footer SECTION */
+.footer {
+    background-color: #121212;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-left {
+    max-width: 300px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #4a90e2;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a,
+.footer-contact a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.issue-button {
+    margin-top: 15px;
+}
+
+.issue-button a {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-offer {
+        height: auto;
+        padding: 50px 5%;
+    }
+
+    .home-offer .content {
+        padding: 30px;
+        max-width: 85%;
+    }
+
+    .home-offer .content h3 {
+        font-size: 28px;
+    }
+
+    .home-offer .content p {
+        font-size: 15px;
+    }
+
+    .home-offer .btn {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+}
+/* Social Section*/
+.social-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-item {
+    text-align: center;
+}
+
+.social-item i {
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-link {
+    color: #1877F2;
+}
+
+.twitter-link {
+    color: #1DA1F2;
+}
+
+.instagram-link {
+    color: #E4405F;
+}
+
+.linkedin-link {
+    color: #0A66C2;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\profile.css
+==================================================
+
+.profile-page {
+    padding: 3rem 5%;
+}
+
+.profile-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.profile-container h2 {
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* User Details Display Area */
+.user-details-display {
+    background-color: #f9f9f9;
+    padding: 1.5rem 2rem;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin-bottom: 2rem;
+}
+
+.user-details-display h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.user-details-display h3 i {
+    margin-right: 10px;
+    color: var(--main-color, #27ae60);
+}
+
+.user-details-display p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 0.8rem;
+    display: flex; 
+}
+
+.user-details-display p strong {
+    font-weight: 600;
+    color: #333;
+    min-width: 180px; 
+    display: inline-block;
+}
+
+.user-details-display span {
+    color: #555; 
+}
+
+.edit-profile-btn {
+    margin-top: 1.5rem;
+    display: inline-block; 
+    width: auto; 
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.edit-profile-btn i {
+    margin-right: 8px;
+}
+
+.edit-profile-section {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-top: 1rem; 
+}
+
+.edit-profile-section h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+.edit-profile-section h3 i {
+    margin-right: 10px;
+    color: var(--main-color, #27ae60);
+}
+
+
+.edit-profile-section .inputBox {
+    margin-bottom: 1.2rem;
+}
+
+.edit-profile-section .inputBox label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #444;
+}
+
+.edit-profile-section .inputBox input[type="text"],
+.edit-profile-section .inputBox input[type="email"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.edit-profile-section .form-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem; 
+}
+
+.edit-profile-section .form-actions .btn {
+    width: auto; 
+    padding: 10px 25px;
+    font-size: 12px;
+}
+
+.edit-profile-section .form-actions .save-btn {
+    background-color: var(--main-color, #27ae60);
+}
+.edit-profile-section .form-actions .save-btn:hover {
+    background-color: #229954; 
+}
+
+.edit-profile-section .form-actions .cancel-btn {
+    background-color: #6c757d; 
+}
+.edit-profile-section .form-actions .cancel-btn:hover {
+    background-color: #5a6268; 
+}
+
+.change-password-section {
+    margin-top: 2rem; 
+    padding-top: 1.5rem;
+}
+
+.change-password-section h3 {
+     font-size: 15px;
+     color: #444;
+     margin-bottom: 1.5rem;
+}
+
+.change-password-section h3 i {
+    margin-right: 10px;
+    color: var(--main-color, #27ae60);
+}
+
+.change-password-section .inputBox {
+    margin-bottom: 1.2rem;
+}
+
+.change-password-section .inputBox label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #444;
+}
+
+.change-password-section .inputBox input[type="password"] {
+     width: 100%;
+     padding: 10px 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 1rem;
+}
+
+.change-password-section .btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 12px;
+}
+
+#profile-message, #password-message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        max-width: 100%;
+    }
+    .user-details-display p strong {
+        min-width: 120px; 
+    }
+    .edit-profile-section .form-actions {
+        flex-direction: column; 
+    }
+    .edit-profile-section .form-actions .btn {
+        width: 100%; 
+    }
+
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\register.css
+==================================================
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.heading {
+  background: url(images/header-register.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.heading h1:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+  text-shadow: 3px 3px 10px rgba(255, 215, 0, 0.8);
+  cursor: pointer;
+}
+
+.header {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  height: 70px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fefdfc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+  color: #ff4500;
+  transition: 0.3s ease;
+}
+
+.highlight {
+  color: #4a90e2;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #4a90e2;
+}
+
+#menu-btn {
+  display: none;
+}
+
+/* Registration Section */
+.registration {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+}
+
+.heading-title {
+  margin-bottom: 20px;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.registration-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.registration-box h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.inputBox {
+  margin: 15px 0;
+  text-align: left; 
+}
+
+.inputBox span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.inputBox input,
+.inputBox select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #357abd;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #121212;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.issue-button {
+  margin-top: 15px;
+}
+
+.issue-button a {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Social Section */
+.social-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.social-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.social-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-item {
+  text-align: center;
+}
+
+.social-item i {
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.facebook-link {
+  color: #1877f2;
+}
+
+.twitter-link {
+  color: #1da1f2;
+}
+
+.instagram-link {
+  color: #e4405f;
+}
+
+.linkedin-link {
+  color: #0a66c2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .registration-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .registration-box {
+    max-width: 90%;
+  }
+  .navbar a {
+    margin: 0 5px;
+  }
+  #menu-btn {
+    display: block;
+  }
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\css\style.css
+==================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+  --main-color: #27ae60; 
+  --black: #222;
+  --white: #fff;
+  --light-black: #777;
+  --light-bg: #f5f5f5;
+  --dark-bg: rgba(0, 0, 0, 0.7);
+  --border: 0.1rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
+section {
+  padding: 5rem 10%;
+}
+/* Heading */
+.heading {
+  background: url(images/header-food.jpg) no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  transition: color 0.3s ease-in-out;
+}
+
+.heading h1 {
+  font-size: 5rem;
+  color: var(--white);
+  text-shadow: var(--text-shadow);
+}
+
+/* Header */
+.header {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  height: 80px;
+}
+
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fefdfc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+  color: #ff4500;
+  transition: 0.3s ease;
+}
+
+.highlight {
+  color: #4a90e2;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #4a90e2;
+}
+
+#menu-btn {
+  display: none;
+}
+
+
+/* HOME SECTION */
+.home {
+  margin-top: 60px;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home .content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.home .content span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home .content h3 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+/* Swiper Slider */
+.home .swiper-slide {
+  min-height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .swiper-slide .content {
+  text-align: center;
+  color: var(--white);
+}
+
+.home .swiper-slide .content span {
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.home .swiper-slide .content h2 {
+  font-size: 30rem;
+  margin-bottom: 1rem;
+  text-shadow: var(--text-shadow);
+}
+
+.home .swiper-slide .content .btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  transition: background 0.3s ease;
+}
+
+.home .swiper-slide .content .btn:hover {
+  background: var(--main-color);
+}
+/* Services Section */
+.services {
+  text-align: center;
+}
+
+.services .heading-title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: var(--black);
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 5rem;
+}
+
+.services .box-container .box {
+  background: var(--main-color);
+  padding: 2rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.services .box-container .box:hover {
+  background: var(--black);
+}
+
+.services .box-container .box img {
+  height: 5px;
+  margin-bottom: 5px;
+}
+
+/* Home About */
+.home-about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-about .image {
+  flex: 1 1 40rem;
+}
+
+.home-about .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.home-about .content {
+  flex: 1 1 40rem;
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.home-about .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.home-about .content p {
+  font-size: 1.6rem;
+  color: var(--light-black);
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.home-about .content .btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem 3rem;
+  transition: background 0.3s ease;
+}
+
+.home-about .content .btn:hover {
+  background: var(--main-color);
+}
+
+/* Home Offer */
+.home-offer {
+  text-align: center;
+  background: var(--light-bg);
+  border-radius: 0.5rem;
+  padding: 3rem;
+}
+
+.home-offer .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.home-offer .content p {
+  font-size: 1.6rem;
+  color: var(--light-black);
+  margin-bottom: 1rem;
+}
+
+.home-offer .content .btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem 3rem;
+  transition: background 0.3s ease;
+}
+
+.home-offer .content .btn:hover {
+  background: var(--main-color);
+}
+
+/* Registration & Login Forms */
+.registration-container, .login-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.registration-box, .login-box {
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  flex: 1 1 30rem;
+}
+
+.registration-box h2, .login-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+  text-align: center;
+}
+
+.inputBox {
+  margin: 1rem 0;
+}
+
+.inputBox span {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--black);
+}
+
+.inputBox input,
+.inputBox select,
+.inputBox textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: var(--border);
+  border-radius: 0.3rem;
+}
+
+.btn {
+  background: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  border-radius: 0.3rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--main-color);
+}
+
+/* Dashboard Sections */
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.form-section,
+.info-section {
+  flex: 1 1 45rem;
+  background: var(--light-bg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.form-section h2,
+.info-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+.info-section .points h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--main-color);
+}
+
+/* Donations List (Collector Dashboard) */
+.donations-list {
+  margin-bottom: 3rem;
+}
+
+.donation-item {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--light-bg);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.donation-item .image {
+  flex: 1 1 20rem;
+}
+
+.donation-item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.donation-item .details {
+  flex: 2 1 30rem;
+  padding: 1rem;
+}
+
+.donation-item .details h3 {
+  font-size: 10px;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.donation-item .details p {
+  font-size: 9px;
+  color: var(--light-black);
+  margin-bottom: 0.5rem;
+}
+
+.donation-item .details .btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  font-size: 5px;
+  border-radius: 0.3rem;
+  transition: background 0.3s ease;
+}
+
+.donation-item .details .btn:hover {
+  background: var(--main-color);
+}
+
+.profile-container {
+  display: block;
+  font-size: 1.6rem;
+  margin: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 100px;
+}
+
+/* Feedback Section */
+.feedback-section form .inputBox {
+  margin: 1rem 0;
+}
+
+.feedback-section form .inputBox span {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--black);
+}
+
+.feedback-section form .btn {
+  width: 100%;
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  transition: background 0.3s ease;
+}
+
+.feedback-section form .btn:hover {
+  background: var(--main-color);
+}
+
+/* Footer SECTION */
+.footer {
+  background-color: #121212;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #4a90e2;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.issue-button {
+  margin-top: 15px;
+}
+
+.issue-button a {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  html {
+    font-size: 65%;
+  }
+  .header {
+    padding: 2rem 5%;
+  }
+  section {
+    padding: 3rem 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    border-top: var(--border);
+    padding: 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.3s ease;
+  }
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar a {
+    display: block;
+    margin: 1rem 0;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-offer {
+      height: auto;
+      padding: 50px 5%;
+  }
+
+  .home-offer .content {
+      padding: 30px;
+      max-width: 85%;
+  }
+
+  .home-offer .content h3 {
+      font-size: 28px;
+  }
+
+  .home-offer .content p {
+      font-size: 15px;
+  }
+
+  .home-offer .btn {
+      padding: 10px 22px;
+      font-size: 15px;
+  }
+}
+
+/* Social Section*/
+.social-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-item {
+  text-align: center;
+}
+
+.social-item i {
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.facebook-link {
+  color: #1877F2;
+}
+
+.twitter-link {
+  color: #1DA1F2;
+}
+
+.instagram-link {
+  color: #E4405F;
+}
+
+.linkedin-link {
+  color: #0A66C2;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\js\auth.js
+==================================================
+
+// --- REGISTRATION ---
+async function registerUser(e) {
+  e.preventDefault();
+  const form = e.target;
+  const messageDiv = document.getElementById('register-message');
+  messageDiv.textContent = 'Registering...';
+  messageDiv.style.color = 'orange';
+
+  const formData = new FormData(form);
+  const user = Object.fromEntries(formData.entries());
+
+  // Basic frontend validation
+  if (!user.name || !user.email || !user.contact || !user.role || !user.password) {
+      messageDiv.textContent = 'Error: Please fill in all required fields.';
+      messageDiv.style.color = 'red';
+      return;
+  }
+  if (user.password.length < 6) {
+       messageDiv.textContent = 'Error: Password must be at least 6 characters long.';
+       messageDiv.style.color = 'red';
+       return;
+  }
+
+  try {
+      const response = await fetch('/api/auth/register', {
+          method: 'POST',
+          body: JSON.stringify(user),
+          headers: { 'Content-Type': 'application/json' }
+      });
+      const data = await response.json();
+
+      if (data.success) {
+          messageDiv.textContent = `Success! Welcome, ${data.user.name}! You are registered as a ${data.user.role}. Redirecting...`;
+          messageDiv.style.color = 'green';
+          localStorage.setItem('user', JSON.stringify(data.user));
+          updateNavbar();
+          setTimeout(() => {
+              if (data.user.role === 'collector') {
+                  window.location.href = 'collector-dashboard.html';
+              } else {
+                  window.location.href = 'distributor-dashboard.html';
+              }
+          }, 2000);
+
+      } else {
+          messageDiv.textContent = `Error: ${data.message || 'Registration failed.'}`;
+          messageDiv.style.color = 'red';
+      }
+  } catch (err) {
+      console.error('Registration error:', err);
+      messageDiv.textContent = 'An unexpected error occurred. Please try again.';
+      messageDiv.style.color = 'red';
+  }
+}
+// --- LOGIN ---
+async function loginUser() {
+  const identifierInput = document.querySelector('#login-form input[name="identifier"]');
+  const passwordInput = document.querySelector('#login-form input[name="password"]');
+  const messageDiv = document.getElementById('login-message');
+
+  const identifier = identifierInput.value.trim();
+  const password = passwordInput.value;
+  messageDiv.textContent = ''; 
+
+  if (!identifier || !password) {
+      messageDiv.textContent = 'Please enter both identifier and password.';
+      return;
+  }
+
+   messageDiv.textContent = 'Logging in...';
+   messageDiv.style.color = 'orange';
+
+
+  try {
+      const response = await fetch('/api/auth/login', {
+          method: 'POST',
+          body: JSON.stringify({ identifier, password }),
+          headers: { 'Content-Type': 'application/json' }
+      });
+      const data = await response.json();
+
+      if (data.success) {
+          localStorage.setItem('user', JSON.stringify(data.user));
+          updateNavbar(); 
+          if (data.user.role === 'collector') {
+              window.location.href = 'collector-dashboard.html';
+          } else if (data.user.role === 'distributor') {
+              window.location.href = 'distributor-dashboard.html';
+          } else {
+               window.location.href = 'index.html'; 
+          }
+      } else {
+          messageDiv.textContent = data.message || 'Login failed. Please check your credentials.';
+           messageDiv.style.color = 'red';
+      }
+  } catch (err) {
+      console.error('Login error:', err);
+      messageDiv.textContent = 'An error occurred during login. Please try again.';
+       messageDiv.style.color = 'red';
+  }
+}
+
+// --- LOGOUT ---
+function logoutUser() {
+  localStorage.removeItem('user');
+  updateNavbar(); 
+  window.location.href = 'index.html'; 
+}
+
+// --- NAVBAR UPDATE ---
+function updateNavbar() {
+  const user = JSON.parse(localStorage.getItem('user'));
+  const navbar = document.querySelector('.header .navbar');
+  if (!navbar) return; 
+
+  if (user) {
+      const dashboardLink = user.role === 'collector' ? 'collector-dashboard.html' : 'distributor-dashboard.html';
+      navbar.innerHTML = `
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="donations.html">Donations</a>
+          <a href="${dashboardLink}">Dashboard</a>
+          <div class="profile-dropdown">
+              <a href="#" class="profile-btn">
+                  <i class="fas fa-user-circle"></i> ${user.name.split(' ')[0]} 
+                  <i class="fas fa-caret-down"></i>
+              </a>
+              <div class="dropdown-content">
+                  <a href="profile.html"><i class="fas fa-id-card"></i> Profile</a>
+                  <a href="${dashboardLink}"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                  <a href="#" onclick="logoutUser()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+              </div>
+          </div>
+      `;
+      addDropdownListener(); 
+  } else {
+      navbar.innerHTML = `
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="donations.html">Donations</a>
+          <a href="register.html">Register</a>
+          <a href="login.html">Login</a>
+      `;
+  }
+}
+function addDropdownListener() {
+   const dropdown = document.querySelector('.profile-dropdown');
+   if (dropdown) {
+       const btn = dropdown.querySelector('.profile-btn');
+       const content = dropdown.querySelector('.dropdown-content');
+
+       btn.addEventListener('click', (event) => {
+           event.preventDefault(); 
+           content.classList.toggle('show');
+       });
+
+       window.addEventListener('click', (event) => {
+           if (!dropdown.contains(event.target)) {
+               if (content.classList.contains('show')) {
+                   content.classList.remove('show');
+               }
+           }
+       });
+   }
+}
+
+function addDropdownCSS() {
+  const styleId = 'profile-dropdown-styles';
+  if (document.getElementById(styleId)) return; 
+
+  const css = `
+      .profile-dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      .profile-dropdown .profile-btn {
+           display: flex;
+           align-items: center;
+           gap: 5px; 
+      }
+       .profile-dropdown .profile-btn i.fa-user-circle {
+           font-size: 1.2em; 
+       }
+
+      .profile-dropdown .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #222; 
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+          z-index: 100;
+          right: 0;
+          border-radius: 4px;
+          overflow: hidden;
+      }
+      .profile-dropdown .dropdown-content.show {
+          display: block;
+      }
+      .profile-dropdown .dropdown-content a {
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 12px; 
+          margin: 0 !important;
+          white-space: nowrap;
+      }
+       .profile-dropdown .dropdown-content a i {
+           width: 15px;
+           text-align: center;
+           color: #aaa;
+       }
+      .profile-dropdown .dropdown-content a:hover {
+          background-color: #444; 
+          color: #4a90e2;
+      }
+       .profile-dropdown .dropdown-content a:hover i {
+           color: #4a90e2; 
+       }
+  `;
+  const style = document.createElement('style');
+  style.id = styleId;
+  style.textContent = css;
+  document.head.appendChild(style);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  addDropdownCSS(); 
+  updateNavbar(); 
+});
+
+==================================================
+File: D:\4th Sem\Project\Web\js\feedback.js
+==================================================
+
+// File: Web/js/feedback.js
+document.addEventListener('DOMContentLoaded', () => {
+  const feedbackContainer = document.getElementById('feedback-items');
+  if (feedbackContainer) {
+    fetch('/api/feedback/all')
+      .then((res) => res.json())
+      .then((data) => {
+        let html = '';
+        data.feedbacks.forEach((item) => {
+          html += `<div class="feedback-item">
+                    <h4>${item.distributorName || 'Anonymous'}</h4>
+                    <p>Rating: ${item.rating} Stars</p>
+                    <p>${item.comment}</p>
+                   </div>`;
+        });
+        feedbackContainer.innerHTML = html;
+        
+        const feedbackItems = document.querySelectorAll('.feedback-item');
+        feedbackItems.forEach(item => {
+          item.addEventListener('mouseover', () => {
+            item.classList.add('highlight');
+          });
+          item.addEventListener('mouseout', () => {
+            item.classList.remove('highlight');
+          });
+        });
+      })
+      .catch((err) => console.error(err));
+  }
+});
+
+
+==================================================
+File: D:\4th Sem\Project\Web\js\order.js
+==================================================
+
+async function openOrderOverlay(donationId) {
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (!user) {
+      alert('Please log in to request a donation.');
+      window.location.href = 'login.html';
+      return;
+  }
+   if (user.role !== 'collector') {
+       alert('Only collectors can request donations.');
+       return;
+   }
+
+  const overlayDiv = document.getElementById('order-overlay');
+  if (!overlayDiv) {
+      console.error("Order overlay container not found!");
+      return;
+  }
+
+  overlayDiv.innerHTML = '<p style="color:white; text-align:center; padding:20px;">Loading donation details...</p>';
+  overlayDiv.style.display = 'flex'; 
+  document.body.classList.add('overlay-active'); 
+
+  try {
+      const donationResponse = await fetch('/api/donations/' + donationId);
+      if (!donationResponse.ok) throw new Error(`Failed to fetch donation details (Status: ${donationResponse.status})`);
+      const donationData = await donationResponse.json();
+
+      if (!donationData.success || !donationData.donation) {
+          throw new Error(donationData.message || 'Donation not found.');
+      }
+      const donation = donationData.donation;
+
+       if (donation.quantity <= 0) {
+           overlayDiv.innerHTML = `
+               <div class="order-modal" style="background:white; padding:2rem; border-radius:8px; text-align:center;">
+                   <span class="close-btn" onclick="closeOrderOverlay()" style="position:absolute; top:1rem; right:1rem; font-size:2rem; cursor:pointer;">&times;</span>
+                   <h2>Donation Not Available</h2>
+                   <p>Sorry, all servings for this donation have already been requested.</p>
+                   <button class="btn" onclick="closeOrderOverlay()">Close</button>
+               </div>`;
+           return;
+       }
+
+      const orderFormHtml = `
+          <div class="order-modal">
+              <span class="close-btn" onclick="closeOrderOverlay()">&times;</span>
+              <h2>Request Donation</h2>
+              <form id="order-form" onsubmit="submitOrder(event)">
+                  <div id="order-details-display" class="order-info">
+                       <!-- Donation details will be injected here -->
+                       <p><strong>Type:</strong> ${donation.foodType}</p>
+                       <p><strong>Available Servings:</strong> <span id="overlay-servings">${donation.quantity}</span></p>
+                       <p><strong>Pickup Time:</strong> ${donation.pickupTime}</p>
+                       <p><strong>Location:</strong> ${donation.location}</p>
+                       <p><strong>Use By:</strong> ${new Date(donation.useBy).toLocaleString()}</p>
+                       ${donation.allergy ? `<p><strong>Allergens:</strong> ${donation.allergy}</p>` : ''}
+                       <hr>
+                  </div>
+                  <div class="inputBox">
+                      <label for="itemCount">How many servings/items do you need? <span style="color:red">*</span></label>
+                      <input type="number" name="itemCount" id="itemCount" placeholder="Enter quantity" min="1" max="${donation.quantity}" required />
+                  </div>
+                  <!-- Hidden input for donationId -->
+                  <input type="hidden" name="donationId" value="${donation._id}">
+                  <div id="order-error-message" style="color:red; margin-bottom:10px;"></div>
+                  <input type="submit" value="Submit Request" class="btn" />
+              </form>
+              <div id="order-summary" class="hidden" style="margin-top: 1.5rem; padding: 1rem; background: #eaf7e9; border-left: 4px solid #28a745; border-radius: 4px;">
+                  <!-- Summary shown after successful submission -->
+              </div>
+          </div>
+      `;
+
+      overlayDiv.innerHTML = orderFormHtml;
+      const styleLink = document.createElement('link');
+      styleLink.rel = 'stylesheet';
+      styleLink.href = 'css/order.css'; 
+      document.head.appendChild(styleLink); 
+
+
+  } catch (err) {
+      console.error('Error opening order overlay:', err);
+      overlayDiv.innerHTML = `<div style="background:white; padding:20px; border-radius:5px;">Error loading details: ${err.message}. <button onclick="closeOrderOverlay()">Close</button></div>`;
+  }
+}
+
+function closeOrderOverlay() {
+  const overlay = document.getElementById('order-overlay');
+  if (overlay) {
+      overlay.style.display = 'none';
+      overlay.innerHTML = ''; 
+  }
+  document.body.classList.remove('overlay-active'); 
+}
+
+async function submitOrder(event) {
+  event.preventDefault();
+  const form = event.target;
+  const summaryDiv = document.getElementById('order-summary');
+  const errorDiv = document.getElementById('order-error-message');
+  const submitButton = form.querySelector('input[type="submit"]');
+  errorDiv.textContent = ''; 
+  summaryDiv.classList.add('hidden'); 
+
+  const orderData = {
+      itemCount: parseInt(form.itemCount.value),
+      donationId: form.donationId.value,
+      collector: null 
+  };
+
+   if (isNaN(orderData.itemCount) || orderData.itemCount <= 0) {
+       errorDiv.textContent = 'Please enter a valid quantity greater than 0.';
+       return;
+   }
+   const availableServings = parseInt(document.getElementById('overlay-servings')?.textContent || '0');
+   if (orderData.itemCount > availableServings) {
+        errorDiv.textContent = `Cannot request more than the available ${availableServings} servings.`;
+        return;
+   }
+
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (!user || !user._id) {
+      errorDiv.textContent = 'Error: Could not identify collector. Please log in again.';
+      return;
+  }
+  orderData.collector = user._id;
+
+  submitButton.value = 'Submitting...';
+  submitButton.disabled = true;
+
+  try {
+      const response = await fetch('/api/donations/order', {
+          method: 'POST',
+          body: JSON.stringify(orderData),
+          headers: { 'Content-Type': 'application/json' }
+      });
+      const data = await response.json();
+
+      if (data.success) {
+          summaryDiv.innerHTML = `
+              <h3><i class="fas fa-check-circle" style="color: green;"></i> Thank You!</h3>
+              <p>Your request for ${orderData.itemCount} servings has been placed successfully.</p>
+              <p><strong>Order ID:</strong> ${data.orderId}</p>
+              <p>You will be notified about pickup details if applicable.</p>
+              <p>Remaining servings for this donation: ${data.updatedDonation.quantity}</p>
+          `;
+          summaryDiv.classList.remove('hidden');
+          form.style.display = 'none'; 
+          const donationCard = document.getElementById(`donation-card-${orderData.donationId}`);
+          if (donationCard) {
+              const quantitySpan = donationCard.querySelector('.donation-quantity');
+              if (quantitySpan) {
+                  quantitySpan.textContent = data.updatedDonation.quantity;
+              }
+              if (data.updatedDonation.quantity <= 0) {
+                   const requestButton = donationCard.querySelector('.request-btn');
+                   if (requestButton) {
+                        requestButton.textContent = 'Unavailable';
+                        requestButton.disabled = true;
+                        requestButton.style.opacity = '0.6';
+                        requestButton.style.cursor = 'not-allowed';
+                   }
+               }
+          }
+           // setTimeout(closeOrderOverlay, 4000);
+
+      } else {
+          errorDiv.textContent = `Error placing order: ${data.message || 'Unknown error'}`;
+          submitButton.value = 'Submit Request';
+          submitButton.disabled = false;
+      }
+  } catch (err) {
+      console.error('Order submission error:', err);
+      errorDiv.textContent = 'An unexpected error occurred while submitting your request.';
+      submitButton.value = 'Submit Request';
+      submitButton.disabled = false;
+  }
+}
+
+
+==================================================
+File: D:\4th Sem\Project\Web\js\overlay.js
+==================================================
+
+async function openFeedbackOverlay() {
+    console.log("openFeedbackOverlay called");
+    const overlay = document.getElementById('feedback-overlay');
+    if (!overlay) {
+        console.error("Feedback overlay container not found!");
+        return;
+    }
+    overlay.innerHTML = '<div class="feedback-overlay-content"><p>Loading Structure...</p></div>'; 
+    overlay.style.display = 'flex';
+    try {
+        console.log("Fetching feedback-overlay.html structure...");
+        const response = await fetch('feedback-overlay.html'); 
+        if (!response.ok) {
+            throw new Error(`HTTP error loading overlay structure! status: ${response.status}`);
+        }
+        const htmlContent = await response.text();
+        console.log("Injecting HTML structure...");
+        overlay.innerHTML = htmlContent; 
+
+        console.log("Structure injected. Now loading feedback data...");
+        await loadAllFeedbacks(); 
+
+    } catch (error) {
+        console.error('Error opening feedback overlay:', error);
+        overlay.innerHTML = `<div class="feedback-overlay-content">
+                                <span class="close-btn" onclick="closeFeedbackOverlay()">×</span>
+                                <h2>Error</h2>
+                                <p>Could not load feedback overlay content. Please try again later.</p>
+                                <p><small>${error.message}</small></p>
+                                <button class="btn close-btn-bottom" onclick="closeFeedbackOverlay()">Close</button>
+                             </div>`;
+        overlay.style.display = 'flex';
+    }
+}
+function closeFeedbackOverlay() {
+    const overlay = document.getElementById('feedback-overlay');
+    if (overlay) {
+        overlay.style.display = 'none';
+        overlay.innerHTML = ''; 
+    }
+}
+
+async function loadAllFeedbacks() {
+    const feedbackContainer = document.getElementById('feedback-items');
+    if (!feedbackContainer) {
+        console.error("Feedback container (#feedback-items) not found after injecting HTML.");
+        return; 
+    }
+
+    feedbackContainer.innerHTML = '<p>Loading feedbacks...</p>';
+
+    try {
+        console.log("loadAllFeedbacks: Fetching from /api/feedback/all");
+        const response = await fetch('/api/feedback/all');
+
+        if (!response.ok) {
+             throw new Error(`HTTP error fetching feedback! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("loadAllFeedbacks: Received data:", data);
+
+        if (data.success && data.feedbacks && data.feedbacks.length > 0) {
+            let html = '';
+            data.feedbacks.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+            data.feedbacks.forEach(item => {
+                html += `
+                    <div class="feedback-item">
+                        <div class="feedback-header">
+                            <span class="feedback-user">Feedback from Collector</span> <!-- Enhance if name available -->
+                            <span class="feedback-rating"> ${generateStars(item.rating)} </span>
+                        </div>
+                        <p class="feedback-comment">${item.comment || 'No comment provided.'}</p>
+                        <span class="feedback-timestamp">Submitted on: ${new Date(item.createdAt).toLocaleDateString()}</span>
+                    </div>`;
+            });
+            feedbackContainer.innerHTML = html; 
+            console.log("loadAllFeedbacks: Feedback rendered.");
+        } else if (data.success) {
+             feedbackContainer.innerHTML = '<p>No feedbacks submitted yet.</p>';
+             console.log("loadAllFeedbacks: No feedback found.");
+        } else {
+            throw new Error(data.message || "API returned failure status.");
+        }
+    } catch (err) {
+        console.error("Error loading feedbacks:", err);
+        feedbackContainer.innerHTML = `<p>Could not load feedbacks at this time. <br><small>${err.message}</small></p>`;
+    }
+}
+
+function generateStars(rating) {
+    let stars = '';
+    for (let i = 1; i <= 5; i++) {
+        stars += `<i class="fas fa-star" style="color: ${i <= rating ? 'gold' : '#ccc'};"></i>`;
+    }
+    return stars;
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\js\profile.js
+==================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  const user = JSON.parse(localStorage.getItem('user'));
+
+  if (!user || !user._id) { 
+      alert('Please login to view your profile.');
+      window.location.href = 'login.html';
+      return;
+  }
+
+  populateProfileData(user);
+
+  setupRoleSpecificUI(user.role);
+
+});
+
+function populateProfileData(user) {
+  document.getElementById('username-display').innerText = user.name || 'User';
+  document.getElementById('detail-name').innerText = user.name || 'N/A';
+  document.getElementById('detail-email').innerText = user.email || 'N/A';
+  document.getElementById('detail-contact').innerText = user.contact || 'N/A';
+  document.getElementById('detail-role').innerText = user.role || 'N/A';
+
+  if (user.role === 'distributor') {
+      document.getElementById('detail-categories').innerText = user.categories || 'Not Specified';
+  } else if (user.role === 'collector') {
+      document.getElementById('detail-region').innerText = user.region || 'Not Specified';
+      document.getElementById('detail-requirements').innerText = user.requirements || 'Not Specified';
+  }
+}
+
+function setupRoleSpecificUI(role) {
+  const distributorElements = document.querySelectorAll('.distributor-only');
+  const collectorElements = document.querySelectorAll('.collector-only');
+
+  if (role === 'distributor') {
+      distributorElements.forEach(el => el.style.display = 'block'); 
+      collectorElements.forEach(el => el.style.display = 'none'); 
+  } else if (role === 'collector') {
+      distributorElements.forEach(el => el.style.display = 'none');
+      collectorElements.forEach(el => el.style.display = 'block'); 
+  } else {
+      distributorElements.forEach(el => el.style.display = 'none');
+      collectorElements.forEach(el => el.style.display = 'none');
+  }
+}
+
+function toggleEditProfile() {
+  const editFormDiv = document.getElementById('edit-profile-form');
+  const detailsDiv = document.getElementById('user-details');
+  const toggleButton = document.getElementById('edit-profile-toggle-btn');
+
+  if (editFormDiv.style.display === 'none' || !editFormDiv.style.display) {
+      const user = JSON.parse(localStorage.getItem('user'));
+      if (!user) return; 
+      // Pre-populate the form with current data
+      document.getElementById('edit-name').value = user.name || '';
+      document.getElementById('edit-email').value = user.email || '';
+      document.getElementById('edit-contact').value = user.contact || '';
+      // Pre-populate role-specific fields
+       if (user.role === 'distributor') {
+          document.getElementById('edit-categories').value = user.categories || '';
+           document.getElementById('edit-categories').required = true; 
+       } else if (user.role === 'collector') {
+          document.getElementById('edit-region').value = user.region || '';
+          document.getElementById('edit-requirements').value = user.requirements || '';
+           document.getElementById('edit-region').required = true; 
+           document.getElementById('edit-requirements').required = true; 
+       }
+
+      editFormDiv.style.display = 'block';
+      detailsDiv.style.display = 'none'; 
+      toggleButton.style.display = 'none'; 
+  } else {
+      editFormDiv.style.display = 'none';
+      detailsDiv.style.display = 'block'; 
+       toggleButton.style.display = 'inline-block'; 
+  }
+}
+
+async function submitProfileEdits(e) {
+  e.preventDefault();
+  const user = JSON.parse(localStorage.getItem('user'));
+  const messageDiv = document.getElementById('profile-message');
+  messageDiv.textContent = 'Saving changes...';
+  messageDiv.style.color = 'orange';
+
+  if (!user || !user._id) {
+      messageDiv.textContent = 'Error: User session not found.';
+      messageDiv.style.color = 'red';
+      return;
+  }
+
+  const updatedData = {
+      name: document.getElementById('edit-name').value.trim(),
+      email: document.getElementById('edit-email').value.trim(),
+      contact: document.getElementById('edit-contact').value.trim(),
+      ...(user.role === 'distributor' && { categories: document.getElementById('edit-categories').value.trim() }),
+      ...(user.role === 'collector' && { region: document.getElementById('edit-region').value.trim() }),
+      ...(user.role === 'collector' && { requirements: document.getElementById('edit-requirements').value.trim() }),
+  };
+   // Basic validation
+   if (!updatedData.name || !updatedData.email || !updatedData.contact) {
+       messageDiv.textContent = 'Error: Name, Email, and Contact are required.';
+       messageDiv.style.color = 'red';
+       return;
+   }
+    if (user.role === 'distributor' && !updatedData.categories) {
+        messageDiv.textContent = 'Error: Categories field is required for distributors.';
+        messageDiv.style.color = 'red';
+        return;
+    }
+     if (user.role === 'collector' && (!updatedData.region || !updatedData.requirements)) {
+         messageDiv.textContent = 'Error: Region and Requirements fields are required for collectors.';
+         messageDiv.style.color = 'red';
+         return;
+     }
+
+
+  try {
+      const response = await fetch(`/api/users/${user._id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updatedData)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+          localStorage.setItem('user', JSON.stringify(result.user));
+
+          populateProfileData(result.user);
+           updateNavbar(); 
+
+          messageDiv.textContent = 'Profile updated successfully!';
+          messageDiv.style.color = 'green';
+
+          toggleEditProfile();
+
+           setTimeout(() => { messageDiv.textContent = ''; }, 5000);
+
+      } else {
+          messageDiv.textContent = `Error: ${result.message || 'Failed to update profile.'}`;
+          messageDiv.style.color = 'red';
+      }
+  } catch (err) {
+      console.error('Profile update error:', err);
+      messageDiv.textContent = 'An unexpected error occurred. Please try again.';
+      messageDiv.style.color = 'red';
+  }
+}
+
+async function changePassword(e) {
+  e.preventDefault();
+  const user = JSON.parse(localStorage.getItem('user'));
+  const form = document.getElementById('change-password-form');
+  const messageDiv = document.getElementById('password-message');
+  messageDiv.textContent = 'Updating password...';
+  messageDiv.style.color = 'orange';
+
+  if (!user || !user._id) {
+      messageDiv.textContent = 'Error: User session not found.';
+      messageDiv.style.color = 'red';
+      return;
+  }
+
+  const oldPassword = document.getElementById('old-password').value;
+  const newPassword = document.getElementById('new-password').value;
+  const confirmNewPassword = document.getElementById('confirm-new-password').value;
+  // Basic validation
+  if (!oldPassword || !newPassword || !confirmNewPassword) {
+      messageDiv.textContent = 'Error: Please fill in all password fields.';
+      messageDiv.style.color = 'red';
+      return;
+  }
+  if (newPassword.length < 6) {
+       messageDiv.textContent = 'Error: New password must be at least 6 characters long.';
+       messageDiv.style.color = 'red';
+       return;
+  }
+  if (newPassword !== confirmNewPassword) {
+      messageDiv.textContent = 'Error: New passwords do not match.';
+      messageDiv.style.color = 'red';
+      return;
+  }
+  if (newPassword === oldPassword) {
+       messageDiv.textContent = 'Error: New password cannot be the same as the old password.';
+       messageDiv.style.color = 'red';
+       return;
+  }
+
+  try {
+      const response = await fetch('/api/auth/changePassword', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+              userId: user._id,
+              oldPassword: oldPassword,
+              newPassword: newPassword
+          })
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+          messageDiv.textContent = 'Password changed successfully!';
+          messageDiv.style.color = 'green';
+          form.reset(); 
+           setTimeout(() => { messageDiv.textContent = ''; }, 5000);
+      } else {
+          messageDiv.textContent = `Error: ${result.message || 'Failed to change password.'}`;
+          messageDiv.style.color = 'red';
+      }
+  } catch (err) {
+      console.error('Password change error:', err);
+      messageDiv.textContent = 'An unexpected error occurred. Please try again.';
+      messageDiv.style.color = 'red';
+  }
+}
+
+==================================================
+File: D:\4th Sem\Project\Web\js\script.js
+==================================================
+
+const menuBtn = document.getElementById('menu-btn');
+const navbar = document.querySelector('.header .navbar');
+
+if(menuBtn) {
+  menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+  });
+}
+
+window.addEventListener('scroll', () => {
+  menuBtn.classList.remove('fa-times');
+  navbar.classList.remove('active');
+});
+
+var swiper = new Swiper(".home-slider", {
+  loop: true,
+  grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+

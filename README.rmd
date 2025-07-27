@@ -1,0 +1,92 @@
+
+# NourishNet Web Application
+
+Same application is submitted both by 23BCE1391 and 23BCE1417.
+This file is run on MongoDB Atlas, MongoDB version 5.0.5. 
+To run in GCP or AWS may cause alterations to the backend coding.
+This upload can be run in a local environment with MongoDB installed.
+To run the code use `npm start`.
+
+## Key Features
+
+Here's a breakdown of the application's core functionalities based on user roles:
+
+1. Public/General Users:
+
+*   View the Homepage (`index.html`) with introductory sliders and service overview.
+*   Read detailed information about the NourishNet mission on the About page (`about.html`).
+*   Browse currently available food donations listed on the Donations page (`donations.html`).
+*   View recent feedback submitted by collectors via a dedicated Feedback overlay.
+*   Navigate between core pages (Home, About, Donations, Register, Login).
+
+2. User Authentication:
+
+*   Registration: Users can register as either a 'Distributor' or a 'Collector'.
+    *   Requires Name, Email, Contact, Role, and Password.
+    *   Collects role-specific information (e.g., typical donation categories for distributors, operating region/needs for collectors).
+*   Login: Registered users can log in using their Email/Contact and Password.
+*   Logout: Logged-in users can log out.
+*   Session Management: Uses `localStorage` to store basic user information (ID, name, role) upon login to manage sessions on the frontend.
+*   Navigation Update: The navigation bar dynamically updates based on login status, showing relevant links (Dashboard, Profile dropdown, Logout) for logged-in users.
+*   Profile Management (`profile.html`, `profile.js`):
+    *   View current profile details (Name, Email, Contact, Role, Role-specific info).
+    *   Edit profile information.
+    *   Change account password (requires current password).
+*   Password Reset: Includes a basic page (`forgot-password.html`), but backend functionality is not implemented completely as the project focuses on frontend development.
+
+3. Distributor Role:
+*   Dashboard: Access a dedicated dashboard after login.
+*   Log Donation: Add new food donation listings, providing:
+    *   Food Type/Description
+    *   Allergy Information
+    *   Quantity (Servings/Items)
+    *   Pickup Location
+    *   Available Pickup Timing
+    *   Use-By Date & Time
+    *   Upload Food Image
+*   View Active Donations: See a list of their donations that are still available (quantity > 0 and not expired).
+*   Edit Donations: (Button exists, but full implementation might be pending).
+*   View Delivery History: See a log of orders fulfilled from their donations.
+*   View Feedback: See feedback (rating and comments) submitted by collectors for completed orders associated with their donations.
+
+4. Collector Role: 
+
+*   Dashboard: Access a dedicated dashboard after login.
+*   View Available Donations: Browse all active donations from various distributors (also available on the public `donations.html`).
+*   Request Donation: Initiate a request for a specific donation via a modal overlay:
+    *   View donation details (type, quantity left, pickup, location, use-by, allergens).
+    *   Specify the desired quantity (cannot exceed available amount).
+*   View Order History: See a list of past donation requests they have made.
+*   Submit Feedback: Provide feedback (Rating 1-5 stars and a comment) for completed orders via a modal on their dashboard. Feedback is linked to a specific order.
+
+## Technology Stack
+*   Frontend:
+    *   HTML5
+    *   CSS3 (including Flexbox, Grid, CSS Variables)
+    *   JavaScript (ES6+, Fetch API, DOM Manipulation)
+    *   Swiper.js (for image sliders)
+    *   Font Awesome (for icons)
+*   Backend:
+    *   Node.js
+    *   Express.js (Web framework)
+*   Database:
+    *   MongoDB (NoSQL database)
+    *   Mongoose (ODM for MongoDB interaction)
+*   File Uploads:
+    *   Multer (Node.js middleware for handling `multipart/form-data`)
+
+## Project Structure
+*   `/`: Root directory containing HTML files.
+*   `css/`: Contains all CSS stylesheets.
+*   `js/`: Contains frontend JavaScript files.
+*   `images/`: Stores static images used in the frontend.
+*   `backend/`: Contains the Node.js server code.
+    *   `controllers/`: Request handling logic for different features.
+    *   `models/`: Mongoose schemas defining the database structure.
+    *   `routes/`: Defines the API endpoints.
+    *   `server.js`: Main backend server setup file.
+*   `uploads/`: (Relative to `backend/` in configuration, likely outside `backend/` in practice) Directory where uploaded donation images are stored.
+
+database user
+nourishnet:
+NourishNet@2025

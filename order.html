@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Place Order - NourishNet</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <div class="order-overlay">
+      <div class="order-modal">
+        <span class="close-btn" onclick="closeOrderOverlay()">&times;</span>
+        <h2>Place Your Order</h2>
+        <form id="order-form" onsubmit="submitOrder(event)">
+          <div class="inputBox">
+            <span>Item Count</span>
+            <input type="number" name="itemCount" placeholder="Enter quantity needed" required />
+          </div>
+          <div id="order-details"></div>
+          <input type="submit" value="Submit Order" class="btn" />
+        </form>
+        <div id="order-summary" class="hidden"></div>
+      </div>
+    </div>
+    <script src="js/order.js"></script>
+  </body>
+</html>

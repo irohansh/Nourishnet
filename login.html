@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NourishNet - Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+       <div id="menu-btn" class="fas fa-bars" style="color: white;"></div>
+    </section>
+
+    <div class="login-container">
+      <h2>🌱 Welcome Back!</h2>
+      <p>Login to manage donations and requests.</p> 
+      <!--
+      <div class="social-buttons">
+        <button class="google-btn">Continue with Google</button>
+        <button class="github-btn">Continue with GitHub</button>
+      </div>
+      <p class="divider">OR</p>
+       -->
+      <p>Login using your registered Email or Contact Number.</p>
+      <form id="login-form" onsubmit="event.preventDefault(); loginUser();">
+            <div class="input-group">
+                <input type="text" name="identifier" placeholder="Enter your email or contact number" required />
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div id="login-message" style="margin-bottom: 15px; color: red; font-weight: bold;"></div>
+            <button type="submit" class="login-btn">Login</button>
+      </form>
+      <p class="signup-link">
+          <a href="forgot-password.html" style="font-size: 0.9em; color: #aaa;">Forgot Password?</a>
+      </p>
+      <p class="signup-link" style="margin-top: 20px;">
+          Don't have an account? <a href="register.html">Sign up</a>
+      </p>
+    </div>
+
+    <script src="js/auth.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="js/script.js"></script>
+  </body>
+</html>

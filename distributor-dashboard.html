@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distributor Dashboard - NourishNet</title>
+    <!-- Swiper CSS (Optional) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/practice.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dashboard.css" /> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header (Dashboard Navigation) -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="distributor-dashboard.html">Dashboard</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Heading -->
+    <div class="heading" style="background: url(images/header-food.jpg) no-repeat center/cover">
+      <h1>Distributor Dashboard</h1>
+    </div>
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+      <h2 class="dashboard-title">Manage Your Donations</h2>
+      <div class="dashboard-grid"> 
+        <!-- Log Food Donation Form Section -->
+        <div class="dashboard-section form-section">
+          <h3><i class="fas fa-plus-circle"></i> Add New Food Donation</h3>
+          <!-- Use fetch API, so remove action/method. Add enctype for file upload. -->
+          <form id="donation-form" enctype="multipart/form-data">
+             <div class="inputBox">
+                <span>Food Type / Description <span style="color:red">*</span></span>
+                <input type="text" name="foodType" placeholder="e.g., Vegetable Curry, Assorted Pastries" required />
+              </div>
+            <div class="inputBox">
+              <span>Allergy Information <span style="color:red">*</span></span>
+              <input type="text" name="allergy" placeholder="e.g., Contains Nuts, Gluten-Free, None" required />
+            </div>
+            <div class="inputBox">
+              <span>Quantity (Servings/Items) <span style="color:red">*</span></span>
+              <input type="number" name="quantity" placeholder="e.g., 50" min="1" required />
+            </div>
+            <div class="inputBox">
+              <span>Pickup Location <span style="color:red">*</span></span>
+              <input type="text" name="location" placeholder="Enter full address or specific location" required />
+            </div>
+            <div class="inputBox">
+              <span>Available Pickup Timing <span style="color:red">*</span></span>
+              <input type="text" name="pickupTime" placeholder="e.g., Today 4 PM - 6 PM, Mon-Fri 9 AM - 12 PM" required />
+            </div>
+            <div class="inputBox">
+              <span>Use-By Date & Time <span style="color:red">*</span></span>
+              <input type="datetime-local" name="useBy" required />
+            </div>
+            <div class="inputBox">
+              <span>Upload Food Image <span style="color:red">*</span></span>
+              <input type="file" name="foodImage" accept="image/png, image/jpeg, image/webp" required />
+            </div>
+            <div id="donation-message" style="margin-top: 10px; font-weight: bold;"></div>
+            <input type="submit" value="Log Donation" class="btn" />
+          </form>
+        </div>
+        <div class="dashboard-section info-section">
+          <h3><i class="fas fa-list-alt"></i> Donation & Delivery Overview</h3>
+          <div class="active-donations">
+            <h4><i class="fas fa-hourglass-half"></i> Your Active Donations</h4>
+            <div id="active-donations-list">
+              <p>Loading active donations...</p>
+            </div>
+          </div>
+          <div class="prior-deliveries">
+            <h4><i class="fas fa-check-circle"></i> Completed Deliveries & Feedback</h4>
+            <div id="delivery-history">
+              <p>Loading delivery history...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="edit-donation-modal" class="overlay" style="display: none;">
+    </div>
+    <div id="feedback-detail-modal" class="overlay" style="display: none;">
+    </div>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.</p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="js/script.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user || user.role !== 'distributor') {
+          alert('Access denied. Please login as a distributor.');
+          window.location.href = 'login.html';
+          return;
+        }
+        const donationForm = document.getElementById('donation-form');
+        const messageDiv = document.getElementById('donation-message');
+        let distributorHidden = donationForm.querySelector('input[name="distributor"]');
+        if (!distributorHidden) {
+             distributorHidden = document.createElement('input');
+             distributorHidden.type = 'hidden';
+             distributorHidden.name = 'distributor';
+             donationForm.appendChild(distributorHidden);
+        }
+        distributorHidden.value = user._id || user.id; 
+        donationForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          messageDiv.textContent = 'Submitting...';
+          messageDiv.style.color = 'orange';
+
+          const formData = new FormData(donationForm);
+          const useByDate = new Date(formData.get('useBy'));
+          if (isNaN(useByDate) || useByDate <= new Date()) {
+             messageDiv.textContent = 'Error: Please enter a valid future Use-By Date & Time.';
+             messageDiv.style.color = 'red';
+             return;
+          }
+          try {
+            const response = await fetch('/api/donations/add', {
+              method: 'POST',
+              body: formData
+            });
+
+            if (!response.ok) {
+                let errorMsg = `HTTP error! status: ${response.status}`;
+                try {
+                    const errorData = await response.json();
+                    errorMsg = errorData.message || errorMsg;
+                } catch (jsonError) {
+
+                }
+                throw new Error(errorMsg);
+            }
+            const data = await response.json();
+            if (data.success) {
+              messageDiv.textContent = 'Donation added successfully!';
+              messageDiv.style.color = 'green';
+              donationForm.reset(); 
+              loadDistributorData(user._id || user.id);
+              setTimeout(() => { messageDiv.textContent = ''; }, 5000);
+            } else {
+              messageDiv.textContent = 'Error: ' + (data.message || 'Could not add donation.');
+              messageDiv.style.color = 'red';
+            }
+          } catch (err) {
+            console.error('Donation submission error:', err);
+            messageDiv.textContent = `An error occurred: ${err.message}. Please try again.`;
+            messageDiv.style.color = 'red';
+          }
+        });
+        loadDistributorData(user._id || user.id);
+      });
+      async function loadDistributorData(distributorId) {
+        const activeListContainer = document.getElementById('active-donations-list');
+        const historyContainer = document.getElementById('delivery-history');
+        activeListContainer.innerHTML = '<p>Loading active donations...</p>';
+        historyContainer.innerHTML = '<p>Loading delivery history...</p>';
+        try {
+          const res = await fetch(`/api/dashboard/distributor/${distributorId}`);
+          const data = await res.json();
+          if (data.success) {
+            let feedbackStatuses = {}; 
+            if (data.orderHistory && data.orderHistory.length > 0) {
+                 console.log("Order history found, checking feedback statuses...");
+                 feedbackStatuses = await checkFeedbackStatusForDistributor(data.orderHistory.map(o => o._id));
+            } else {
+                 console.log("No order history, skipping feedback status check.");
+            }
+            if (data.activeDonations && data.activeDonations.length > 0) {
+              activeListContainer.innerHTML = '';
+              data.activeDonations.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+              data.activeDonations.forEach(donation => {
+                const item = document.createElement('div');
+                item.classList.add('active-donation-item');
+                item.innerHTML = `
+                  <div>
+                    <p><strong>ID:</strong> ${donation._id}</p>
+                    <p><strong>Type:</strong> ${donation.foodType}</p>
+                    <p><strong>Quantity Left:</strong> ${donation.quantity} servings</p>
+                    <p><strong>Use By:</strong> ${new Date(donation.useBy).toLocaleString()}</p>
+                  </div>
+                  <div>
+                    <button class="btn edit-btn" onclick="openEditDonationModal('${donation._id}')">Edit</button>
+                    <!-- <button class="btn delete-btn" onclick="deleteDonation('${donation._id}')">Delete</button> -->
+                  </div>
+                `;
+                activeListContainer.appendChild(item);
+              });
+            } else {
+              activeListContainer.innerHTML = '<p>You have no active donations.</p>';
+            }
+
+            if (data.orderHistory && data.orderHistory.length > 0) {
+              historyContainer.innerHTML = '';
+              data.orderHistory.sort((a, b) => new Date(b.orderDate) - new Date(a.orderDate));
+              const feedbackMap = {}; 
+              if (feedbackStatuses) {
+                    Object.entries(feedbackStatuses).forEach(([orderId, feedback]) => {
+                        if (feedback) {
+                             feedbackMap[orderId] = feedback;
+                        }
+                    });
+              }
+              console.log("Using feedback map to render history:", feedbackMap);
+              data.orderHistory.forEach(order => {
+                const item = document.createElement('div');
+                item.classList.add('delivery-item');
+                const feedback = feedbackMap[order._id];
+                item.innerHTML = `
+                    <div>
+                         <p><strong>Order ID:</strong> ${order._id}</p>
+                         <p><strong>Donation ID:</strong> ${order.donationId}</p>
+                         <p><strong>Collector ID:</strong> ${order.collector}</p>
+                         <p><strong>Items Taken:</strong> ${order.itemCount}</p>
+                         <p><strong>Date:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
+                    </div>
+                     <div class="feedback-section">
+                         ${feedback ? `
+                             <p><strong>Feedback Received:</strong></p>
+                             <div class="feedback-details">
+                                <span class="rating">${generateStars(feedback.rating)}</span>
+                                ${feedback.comment || 'No comment provided.'} <!-- Added fallback -->
+                                <span style="display:block; font-size: 10px; color: #888;"> on ${new Date(feedback.createdAt).toLocaleDateString()}</span>
+                             </div>
+                         ` : `
+                             <p><i>No feedback submitted yet.</i></p>
+                         `}
+                     </div>
+                `;
+                historyContainer.appendChild(item);
+              });
+            } else {
+              historyContainer.innerHTML = '<p>No deliveries have been completed yet.</p>';
+            }
+          } else {
+             console.error("API call failed:", data.message);
+             activeListContainer.innerHTML = `<p>Could not load donations: ${data.message || 'Unknown error'}</p>`;
+             historyContainer.innerHTML = `<p>Could not load delivery history: ${data.message || 'Unknown error'}</p>`;
+          }
+        } catch (err) {
+           console.error('Error in loadDistributorData:', err);
+           activeListContainer.innerHTML = '<p>Error loading data. Please refresh.</p>';
+           historyContainer.innerHTML = '<p>Error loading data. Please refresh.</p>';
+        }
+      }
+
+      function generateStars(rating) {
+          let stars = '';
+          for (let i = 1; i <= 5; i++) {
+              stars += `<i class="fas fa-star" style="color: ${i <= rating ? 'gold' : '#ccc'};"></i>`;
+          }
+          return stars;
+      }
+
+      async function checkFeedbackStatusForDistributor(orderIds) {
+            if (!orderIds || orderIds.length === 0) {
+                console.log("checkFeedbackStatusForDistributor: No order IDs to check.");
+                return {};
+            }
+
+            try {
+                console.log("checkFeedbackStatusForDistributor: Checking feedback for orders:", orderIds);
+                const res = await fetch('/api/feedback/all'); 
+                if (!res.ok) {
+                    console.error(`checkFeedbackStatusForDistributor: Failed to fetch feedback - HTTP status ${res.status}`);
+                    return {}; 
+                }
+
+                const data = await res.json();
+
+                if (!data.success || !data.feedbacks) {
+                    console.warn("checkFeedbackStatusForDistributor: API did not return success or feedbacks array.", data);
+                    return {}; 
+                }
+
+                console.log(`checkFeedbackStatusForDistributor: Received ${data.feedbacks.length} total feedbacks.`);
+                const feedbackMap = {};
+                data.feedbacks.forEach(fb => {
+                    if (orderIds.includes(fb.orderId)) {
+                        feedbackMap[fb.orderId] = fb; 
+                    }
+                });
+
+                console.log("checkFeedbackStatusForDistributor: Constructed feedback map:", feedbackMap);
+                return feedbackMap; 
+            } catch (err) {
+                console.error("checkFeedbackStatusForDistributor: Error occurred:", err);
+                return {}; 
+            }
+        }
+
+      function openEditDonationModal(donationId) {
+        alert(`Edit functionality for donation ${donationId} is not fully implemented yet.`);
+        // const modal = document.getElementById('edit-donation-modal');
+        // modal.style.display = 'flex';
+      }
+
+      function showFeedbackDetail(feedbackId) {
+          alert(`Viewing detail for feedback ${feedbackId} not implemented yet.`);
+          // const modal = document.getElementById('feedback-detail-modal');
+          // Fetch feedback detail, populate modal...
+          // modal.style.display = 'flex';
+      }
+    </script>
+  </body>
+</html>

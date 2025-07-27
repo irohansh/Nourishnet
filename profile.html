@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Profile - NourishNet</title>
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css"/> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <a href="index.html" class="logo">NOURISH<span class="highlight">NET</span></a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="donations.html">Donations</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <div class="heading" style="background: url(images/header-profile.jpg) no-repeat center/cover"> 
+        <h1>Your Profile</h1>
+    </div>
+    <section class="profile-page">
+        <div class="profile-container dashboard-section"> 
+            <h2>Welcome, <span id="username-display" style="color: var(--main-color);">User</span>!</h2>
+            <p>Manage your NourishNet account details below.</p>
+            <div id="profile-message" style="margin: 10px 0; font-weight: bold;"></div>
+
+             <div id="user-details" class="user-details-display">
+                 <h3><i class="fas fa-user-circle"></i> Your Information</h3>
+                 <p><strong>Name:</strong> <span id="detail-name">Loading...</span></p>
+                 <p><strong>Email:</strong> <span id="detail-email">Loading...</span></p>
+                 <p><strong>Contact:</strong> <span id="detail-contact">Loading...</span></p>
+                 <p><strong>Role:</strong> <span id="detail-role" style="text-transform: capitalize;">Loading...</span></p>
+                 <div class="distributor-only" style="display: none;">
+                    <p><strong>Donated Categories:</strong> <span id="detail-categories">Loading...</span></p>
+                 </div>
+                 <div class="collector-only" style="display: none;">
+                     <p><strong>Operating Region:</strong> <span id="detail-region">Loading...</span></p>
+                     <p><strong>Typical Requirements:</strong> <span id="detail-requirements">Loading...</span></p>
+                 </div>
+                  <button class="btn edit-profile-btn" id="edit-profile-toggle-btn" onclick="toggleEditProfile()">
+                    <i class="fas fa-edit"></i> Edit Profile
+                </button>
+             </div>
+             <!-- Edit Profile Form -->
+             <div id="edit-profile-form" class="edit-profile-section" style="display: none;">
+                 <h3><i class="fas fa-pencil-alt"></i> Edit Your Information</h3>
+                 <form onsubmit="submitProfileEdits(event)">
+                     <div class="inputBox">
+                         <label for="edit-name">Name <span style="color:red">*</span></label>
+                         <input type="text" id="edit-name" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="edit-email">Email <span style="color:red">*</span></label>
+                         <input type="email" id="edit-email" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="edit-contact">Contact (Phone/Address) <span style="color:red">*</span></label>
+                         <input type="text" id="edit-contact" required/>
+                     </div>
+                     <!-- Distributor-only fields -->
+                     <div class="inputBox distributor-only" style="display: none;">
+                         <label for="edit-categories">Donated Categories <span style="color:red">*</span></label>
+                         <input type="text" id="edit-categories" />
+                     </div>
+                     <!-- Collector-only fields -->
+                     <div class="inputBox collector-only" style="display: none;">
+                         <label for="edit-region">Operating Region <span style="color:red">*</span></label>
+                         <input type="text" id="edit-region" />
+                     </div>
+                     <div class="inputBox collector-only" style="display: none;">
+                         <label for="edit-requirements">Typical Requirements <span style="color:red">*</span></label>
+                         <input type="text" id="edit-requirements" />
+                     </div>
+                     <div class="form-actions">
+                         <button type="submit" class="btn save-btn"><i class="fas fa-save"></i> Save Changes</button>
+                         <button type="button" class="btn cancel-btn" onclick="toggleEditProfile()"><i class="fas fa-times"></i> Cancel</button>
+                     </div>
+                 </form>
+             </div>
+
+             <hr style="margin: 2rem 0; border-top: 1px solid #eee;"/>
+             <!-- Change Password Section -->
+             <div class="change-password-section">
+                 <h3><i class="fas fa-key"></i> Change Password</h3>
+                 <form id="change-password-form" onsubmit="changePassword(event)">
+                     <div class="inputBox">
+                         <label for="old-password">Current Password <span style="color:red">*</span></label>
+                         <input type="password" id="old-password" required />
+                     </div>
+                     <div class="inputBox">
+                         <label for="new-password">New Password <span style="color:red">*</span></label>
+                         <input type="password" id="new-password" required minlength="6"/>
+                     </div>
+                     <div class="inputBox">
+                         <label for="confirm-new-password">Confirm New Password <span style="color:red">*</span></label>
+                         <input type="password" id="confirm-new-password" required minlength="6"/>
+                     </div>
+                      <div id="password-message" style="margin: 10px 0; font-weight: bold;"></div>
+                     <button type="submit" class="btn"><i class="fas fa-sync-alt"></i> Update Password</button>
+                 </form>
+                 <p style="margin-top: 1rem; font-size: 0.9em;">
+                     <a href="forgot-password.html">Forgot your password?</a>
+                 </p>
+             </div>
+         </div>
+     </section>
+    <!-- Social Section -->
+    <section class="social-section">
+      <h2>Be part of our mission</h2>
+      <p>
+        Be part of our mission to reduce food waste and nourish communities in need. Connect with us on these platforms.
+      </p>
+      <div class="social-icons">
+        <div class="social-item">
+          <i class="fab fa-facebook-f facebook-link"></i>
+          <a href="#" class="facebook-link">Facebook</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-twitter twitter-link"></i>
+          <a href="#" class="twitter-link">Twitter</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-instagram instagram-link"></i>
+          <a href="#" class="instagram-link">Instagram</a>
+        </div>
+        <div class="social-item">
+          <i class="fab fa-linkedin-in linkedin-link"></i>
+          <a href="#" class="linkedin-link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2 class="brand">NOURISH<span class="highlight">NET</span></h2>
+          <p>Connecting surplus food to those in need.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund & Cancellation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>GET IN TOUCH</h3>
+          <p>📧 <a href="mailto:support@nourishnet.org">Support@NourishNet.org</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 NourishNet. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+    <script src="js/auth.js"></script> 
+    <script src="js/profile.js"></script> 
+  </body>
+</html>

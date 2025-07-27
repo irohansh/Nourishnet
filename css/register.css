@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.heading {
+  background: url(images/header-register.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.heading h1:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+  text-shadow: 3px 3px 10px rgba(255, 215, 0, 0.8);
+  cursor: pointer;
+}
+
+.header {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  height: 70px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fefdfc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+  color: #ff4500;
+  transition: 0.3s ease;
+}
+
+.highlight {
+  color: #4a90e2;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #4a90e2;
+}
+
+#menu-btn {
+  display: none;
+}
+
+/* Registration Section */
+.registration {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+}
+
+.heading-title {
+  margin-bottom: 20px;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.registration-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.registration-box h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.inputBox {
+  margin: 15px 0;
+  text-align: left; 
+}
+
+.inputBox span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.inputBox input,
+.inputBox select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #357abd;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #121212;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.issue-button {
+  margin-top: 15px;
+}
+
+.issue-button a {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Social Section */
+.social-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.social-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.social-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-item {
+  text-align: center;
+}
+
+.social-item i {
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-item a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.facebook-link {
+  color: #1877f2;
+}
+
+.twitter-link {
+  color: #1da1f2;
+}
+
+.instagram-link {
+  color: #e4405f;
+}
+
+.linkedin-link {
+  color: #0a66c2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .registration-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .registration-box {
+    max-width: 90%;
+  }
+  .navbar a {
+    margin: 0 5px;
+  }
+  #menu-btn {
+    display: block;
+  }
+}

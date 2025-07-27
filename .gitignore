@@ -1,0 +1,25 @@
+# Node modules and logs
+node_modules/
+*.log
+
+# Environment variables
+.env
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Build/output folders
+dist/
+build/
+
+# User uploads
+uploads/
+
+# Python compiled files (if backend is Python)
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.swp
