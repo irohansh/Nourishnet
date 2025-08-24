@@ -1,7 +1,6 @@
 
 # NourishNet Web Application
 
-Same application is submitted both by 23BCE1391 and 23BCE1417.
 This file is run on MongoDB Atlas, MongoDB version 5.0.5. 
 To run in GCP or AWS may cause alterations to the backend coding.
 This upload can be run in a local environment with MongoDB installed.
@@ -90,3 +89,4 @@ Here's a breakdown of the application's core functionalities based on user roles
 database user
 nourishnet:
 NourishNet@2025
+
